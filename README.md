@@ -8,6 +8,9 @@ This contains everything you need to run your app locally.
 
 View your app in AI Studio: https://ai.studio/apps/drive/1jdvAWggaRlOY_ImsnbCz4k1Hkj0ZVVP_
 
+
+see the webstie here: https://posto-landing-page.vercel.app/ 
+
 ## Run Locally
 
 **Prerequisites:**  Node.js
