@@ -3,8 +3,8 @@ import { Icon } from './Icon';
 
 export const StatusCard: React.FC = () => {
   return (
-    <div className="bg-white rounded-[2rem] p-4 shadow-2xl shadow-green-900/10 border border-gray-100 w-full relative z-20">
-      <div className="bg-gray-50 rounded-[1.5rem] p-6 border border-gray-100 relative overflow-hidden">
+    <div className="bg-white rounded-4xl p-4 shadow-2xl shadow-green-900/10 border border-gray-100 w-full relative z-20">
+      <div className="bg-gray-50 rounded-3xl p-6 border border-gray-100 relative overflow-hidden">
         
         {/* Card Header */}
         <div className="flex justify-between items-center mb-8">
@@ -23,9 +23,9 @@ export const StatusCard: React.FC = () => {
 
         {/* Circular Progress Indicator */}
         <div className="flex justify-center my-6">
-          <div className="w-48 h-48 rounded-full border-[10px] border-gray-200 relative flex items-center justify-center bg-white shadow-inner">
+          <div className="w-48 h-48 rounded-full border-10 border-gray-200 relative flex items-center justify-center bg-white shadow-inner">
             {/* Progress Arc */}
-            <div className="absolute top-0 left-0 w-full h-full rounded-full border-[10px] border-primary border-t-transparent border-l-transparent rotate-45 transform -translate-0.5"></div>
+            <div className="absolute top-0 left-0 w-full h-full rounded-full border-10 border-primary border-t-transparent border-l-transparent rotate-45 transform -translate-0.5"></div>
             
             <div className="text-center relative z-10">
               <span className="block text-4xl font-bold text-gray-900 tracking-tighter">

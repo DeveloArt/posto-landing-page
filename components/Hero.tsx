@@ -19,11 +19,11 @@ export const Hero: React.FC = () => {
       </p>
 
       <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
-        <button className="bg-primary hover:bg-secondary text-white font-semibold py-4 px-8 rounded-2xl shadow-lg shadow-green-200 flex items-center justify-center transition-all transform hover:scale-[1.02] active:scale-[0.98]">
+        <button className="bg-green-400 hover:bg-green-500 text-white font-semibold py-4 px-8 rounded-2xl shadow-lg shadow-green-200 flex items-center justify-center transition-all transform hover:scale-[1.02] active:scale-[0.98] cursor-pointer">
           <Icon name="ios" className="mr-2" />
           <span>App Store</span>
         </button>
-        <button className="bg-gray-900 hover:bg-gray-800 text-white font-semibold py-4 px-8 rounded-2xl shadow-lg flex items-center justify-center transition-all transform hover:scale-[1.02] active:scale-[0.98]">
+        <button className="bg-gray-900 hover:bg-gray-800 text-white font-semibold py-4 px-8 rounded-2xl shadow-lg flex items-center justify-center transition-all transform hover:scale-[1.02] active:scale-[0.98] cursor-pointer">
           <Icon name="android" className="mr-2" />
           <span>Google Play</span>
         </button>

@@ -24,7 +24,7 @@ export const Testimonials: React.FC = () => {
                   className="w-full h-full object-cover rounded-full shadow-md"
                 />
              </div>
-             <div className="absolute -bottom-3 -right-3 bg-white p-2 rounded-full shadow-md">
+             <div className="absolute h-10 w-10 -bottom-3 -right-3 bg-white p-2 rounded-full shadow-md">
                  <Icon name="favorite" className="text-red-500 text-xl lg:text-2xl" filled />
              </div>
           </div>

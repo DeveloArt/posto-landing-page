@@ -6,7 +6,7 @@ const features: FeatureItem[] = [
   {
     icon: 'timer',
     title: 'Smart Timer',
-    description: 'Customizable timers for 16:8, 20:4, or custom fasting windows tailored to your daily schedule.',
+    description: 'Customizable timers for 16:8, 18:6, 20:4, or custom fasting windows tailored to your daily schedule.',
     colorClass: 'text-primary',
     iconBgClass: 'bg-green-100',
   },
@@ -31,7 +31,7 @@ export const Features: React.FC = () => {
     <section className="px-6 py-20 lg:py-28 bg-white max-w-7xl mx-auto">
       <div className="text-center mb-16 max-w-2xl mx-auto">
         <span className="text-primary font-bold text-xs uppercase tracking-widest bg-green-50 px-4 py-1.5 rounded-full">
-          Why FastTrack?
+          Why Posto?
         </span>
         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-6 leading-tight">
           Everything you need to reach your health goals

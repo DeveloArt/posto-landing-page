@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FastTrack - Intermittent Fasting</title>
+    <title>Posto - Intermittent Fasting</title>
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,31 +15,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              primary: "#10b981", // Emerald green
-              secondary: "#047857",
-              "background-light": "#f0fdf4",
-              "background-dark": "#022c22",
-            },
-            fontFamily: {
-              display: ["Poppins", "sans-serif"],
-              sans: ["Poppins", "sans-serif"],
-            },
-            borderRadius: {
-              DEFAULT: "1rem",
-              xl: "1.5rem",
-              "2xl": "2rem",
-              "3xl": "2.5rem",
-            },
-          },
-        },
-      };
-    </script>
+    <link href="/styles.css" rel="stylesheet">
+    <script type="module" src="/index.tsx"></script>
     <style>
       body {
         /* Ensure the background covers the whole screen on larger devices */
@@ -48,17 +26,9 @@
         min-height: 100vh;
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.2.1/",
-    "react": "https://esm.sh/react@^19.2.1",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.1/"
-  }
-}
-</script>
 </head>
   <body>
     <div id="root"></div>
   </body>
+  <script type="module" src="/index.tsx"></script> 
 </html>
