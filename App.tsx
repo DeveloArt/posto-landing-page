@@ -19,12 +19,12 @@ function App() {
         <Header />
 
         {/* Hero Content Grid */}
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 pb-12 lg:pb-24 lg:pt-8 lg:flex lg:items-center lg:justify-between relative z-10">
-          <div className="lg:w-1/2 lg:pr-12">
+        <div className="w-full mx-auto px-6 lg:px-8 pb-12 lg:pb-24 lg:pt-8 lg:flex lg:items-center lg:justify-between relative z-10">
+          <div className="lg:w-1/2 lg:pr-12 lg:ml-28">
             <Hero />
           </div>
           
-          <div className="lg:w-1/2 mt-12 lg:mt-0 flex justify-center lg:justify-end perspective-1000">
+          <div className="lg:w-1/2 mt-12 lg:mr-28 lg:mt-0 flex justify-center lg:justify-end perspective-1000">
              <div className="w-full max-w-sm transform transition-transform lg:hover:scale-105 duration-500">
                 <StatusCard />
              </div>

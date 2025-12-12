@@ -13,10 +13,10 @@ export const Hero: React.FC = () => {
         <span className="text-primary">Through Fasting</span>
       </h1>
       
-      <p className="text-gray-600 mb-8 text-base lg:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0">
-        Simple, effective, and natural. Join millions improving their health
-        with our intuitive fasting tracker. No diets, just timing.
-      </p>
+        <p className="text-gray-600 mb-8 text-base lg:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0">
+          Simple, effective, and natural. Join millions improving their health
+          with our intuitive fasting tracker. No diets, just timing.
+        </p>
 
       <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
         <button className="bg-green-400 hover:bg-green-500 text-white font-semibold py-4 px-8 rounded-2xl shadow-lg shadow-green-200 flex items-center justify-center transition-all transform hover:scale-[1.02] active:scale-[0.98] cursor-pointer">

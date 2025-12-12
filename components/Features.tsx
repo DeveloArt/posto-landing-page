@@ -28,7 +28,7 @@ const features: FeatureItem[] = [
 
 export const Features: React.FC = () => {
   return (
-    <section className="px-6 py-20 lg:py-28 bg-white max-w-7xl mx-auto">
+    <section className="px-6 py-20 lg:py-28 bg-white max-w-full mx-auto">
       <div className="text-center mb-16 max-w-2xl mx-auto">
         <span className="text-primary font-bold text-xs uppercase tracking-widest bg-green-50 px-4 py-1.5 rounded-full">
           Why Posto?
