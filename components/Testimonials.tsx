@@ -11,7 +11,7 @@ const testimonial: TestimonialData = {
 
 export const Testimonials: React.FC = () => {
   return (
-    <section className="px-6 py-20 lg:py-24 max-w-full mx-auto">
+    <section className="px-6 py-20 lg:py-24 max-w-full mx-auto" id="testimonials">
       <div className="bg-white lg:bg-transparent rounded-3xl p-8 lg:p-0">
         <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-center lg:gap-16">
           

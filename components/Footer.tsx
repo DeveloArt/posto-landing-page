@@ -3,6 +3,9 @@ import { Icon } from './Icon';
 import logo from '../assets/images/icon.png';
 
 export const Footer: React.FC = () => {
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
     <footer className="bg-gray-900 text-white mt-auto">
       <div className="px-6 py-16 lg:py-20 max-w-full mx-auto">
@@ -16,7 +19,7 @@ export const Footer: React.FC = () => {
             </p>
           </div>
           <div className="flex flex-col items-start lg:items-end shrink-0">
-            <button className="w-full lg:w-auto bg-green-400 hover:bg-green-500 text-white font-bold py-4 px-10 rounded-2xl shadow-lg shadow-green-900/50 flex items-center justify-center transition-all transform hover:-translate-y-1 mb-3 cursor-pointer">
+            <button onClick={handleClick} className="w-full lg:w-auto bg-green-400 hover:bg-green-500 text-white font-bold py-4 px-10 rounded-2xl shadow-lg shadow-green-900/50 flex items-center justify-center transition-all transform hover:-translate-y-1 mb-3 cursor-pointer">
               Get Started For Free
             </button>
           </div>

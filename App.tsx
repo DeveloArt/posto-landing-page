@@ -5,6 +5,7 @@ import { StatusCard } from './components/StatusCard';
 import { Features } from './components/Features';
 import { Testimonials } from './components/Testimonials';
 import { Footer } from './components/Footer';
+import { Pricing } from './components/Pricing';
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
       <div className="bg-green-50/50">
          <Testimonials />
       </div>
+
+      <Pricing />
 
       <Footer />
     </div>

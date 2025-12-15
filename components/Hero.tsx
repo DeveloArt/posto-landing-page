@@ -3,7 +3,7 @@ import { Icon } from './Icon';
 
 export const Hero: React.FC = () => {
   return (
-    <div className="text-center lg:text-left pt-8 lg:pt-0">
+    <div className="text-center lg:text-left pt-8 lg:pt-0 scroll-mt-20" >
       <div className="inline-flex items-center px-3 py-1 rounded-full bg-green-100 text-primary text-xs font-bold uppercase tracking-wide mb-6">
         <span className="mr-2">✨</span> New v2.0 Released
       </div>
