@@ -3,10 +3,10 @@ import { Icon } from './Icon';
 
 export const Pricing: React.FC = () => {
     return (
-        <section className="px-6 py-20 lg:py-24 max-w-full mx-auto bg-gray-50" id="pricing">
+        <section className="px-6 py-20 lg:py-24 max-w-full mx-auto bg-white" id="pricing">
             <div className="max-w-4xl mx-auto">
                 <div className="text-center mb-16">
-                    <span className="text-primary font-bold text-xs uppercase tracking-widest bg-green-100 px-4 py-1.5 rounded-full">
+                    <span className="text-primary font-bold text-xs uppercase tracking-widest bg-green-50 px-4 py-1.5 rounded-full">
                         Pricing
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-6 leading-tight">
@@ -17,7 +17,7 @@ export const Pricing: React.FC = () => {
                     </p>
                 </div>
 
-                <div className="bg-white rounded-4xl p-8 lg:p-12 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
+                <div className="rounded-4xl p-8 lg:p-12 shadow-sm border-none bg-gray-50 hover:bg-green-50/50 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
                     <div className="absolute top-0 left-0 p-5 group-hover:scale-110 transition-transform bg-green-100 rounded-2xl mt-5 ml-5 w-14 h-14 flex items-center justify-center shrink-0">
                         <Icon name="attach_money" className="text-green-600 text-2xl" />
                     </div>
@@ -32,7 +32,7 @@ export const Pricing: React.FC = () => {
                             </p>
                         </div>
 
-                        <div className="h-px lg:h-auto lg:w-px bg-gray-100 self-stretch w-full" />
+                        <div className="h-px lg:h-auto lg:w-px bg-gray-200 self-stretch w-full" />
 
                         <div className="flex-1 w-full lg:w-auto">
                             <ul role="list" className="space-y-4">
@@ -56,7 +56,7 @@ export const Pricing: React.FC = () => {
                         </div>
                     </div>
 
-                    <div className="mt-10 pt-8 border-t border-gray-100 flex flex-col items-center">
+                    <div className="mt-10 pt-8 border-t border-gray-200 flex flex-col items-center">
                         <p className="text-gray-400 text-sm mt-4">
                             No credit card required. Just download and start.
                         </p>
