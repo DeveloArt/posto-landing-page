@@ -15,7 +15,7 @@ export const StatusCard: React.FC = () => {
               16:8 Intermittent
             </h3>
           </div>
-          <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-primary shadow-sm">
+          <div className="w-10 h-10 rounded-full bg-green-300 flex items-center justify-center text-green-600 shadow-sm">
             <Icon name="bolt" className="text-lg" filled />
           </div>
         </div>
@@ -47,7 +47,7 @@ export const StatusCard: React.FC = () => {
       </div>
 
       <div className="mt-5 flex items-center justify-center space-x-2 text-xs font-medium text-gray-500 bg-gray-50 py-2 rounded-xl">
-        <Icon name="verified" className="text-primary text-base" filled />
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="lightgreen" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-badge-check-icon lucide-badge-check stroke-green-600"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/></svg>
         <span>Scientifically proven method</span>
       </div>
     </div>

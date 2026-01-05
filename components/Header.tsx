@@ -20,9 +20,9 @@ export const Header: React.FC = () => {
       
       {isHomePage && (
         <div className="flex items-center space-x-4 sm:space-x-6 md:space-x-8 mr-0 sm:mr-6 md:mr-12">
-          <a href="#features" className="text-gray-600 hover:text-gray-800 font-medium transition-all hover:scale-110 text-sm sm:text-base">Features</a>
-          <a href="#testimonials" className="text-gray-600 hover:text-gray-800 font-medium transition-all hover:scale-110 text-sm sm:text-base">Testimonials</a>
-          <a href="#pricing" className="text-gray-600 hover:text-gray-800 font-medium transition-all hover:scale-110 text-sm sm:text-base">Pricing</a>
+          <a href="#features" className="text-gray-600 hover:text-green-500 font-medium transition-all hover:scale-110 text-sm sm:text-base">Features</a>
+          <a href="#testimonials" className="text-gray-600 hover:text-green-500 font-medium transition-all hover:scale-110 text-sm sm:text-base">Testimonials</a>
+          <a href="#pricing" className="text-gray-600 hover:text-green-500 font-medium transition-all hover:scale-110 text-sm sm:text-base">Pricing</a>
         </div>
       )}
     </nav>

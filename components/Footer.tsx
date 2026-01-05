@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
     <footer className="bg-gray-900 text-white mt-auto">
       <div className="w-full px-6 py-16 lg:py-20 mx-auto">
         
-        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center border-b border-gray-800 pb-16 mb-12">
+        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center border-b border-gray-800 pb-16 mb-12 lg:ml-5 lg:mr-5">
           <div className="mb-10 lg:mb-0 max-w-xl lg:ml-5 lg:mr-5">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">Ready to transform your life?</h2>
             <p className="text-gray-400 text-lg">

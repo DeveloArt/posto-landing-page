@@ -6,7 +6,7 @@ export const Pricing: React.FC = () => {
         <section className="px-6 py-20 lg:py-24 max-w-full mx-auto bg-white" id="pricing">
             <div className="max-w-4xl mx-auto">
                 <div className="text-center mb-16">
-                    <span className="text-primary font-bold text-xs uppercase tracking-widest bg-green-50 px-4 py-1.5 rounded-full">
+                    <span className="text-primary font-bold text-xs uppercase tracking-widest bg-green-100 px-4 py-1.5 rounded-full">
                         Pricing
                     </span>
                     <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-6 leading-tight">
@@ -18,8 +18,8 @@ export const Pricing: React.FC = () => {
                 </div>
                 
                 <div className="rounded-4xl p-8 lg:p-12 shadow-sm border-none bg-gray-50 hover:bg-green-50/50 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
-                    <div className="absolute top-0 left-0 p-5 group-hover:scale-110 transition-transform bg-green-100 rounded-2xl mt-5 ml-5 w-14 h-14 flex items-center justify-center shrink-0">
-                        <Icon name="attach_money" className="text-green-600 text-2xl" />
+                    <div className="absolute top-0 left-0 p-2 group-hover:scale-110 transition-transform bg-green-100 rounded-2xl mt-5 ml-5 w-14 h-14 flex items-center justify-center shrink-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
                     </div>
 
                     <div className="flex flex-col lg:flex-row items-center justify-between gap-12 relative z-10 mt-5">
@@ -45,7 +45,7 @@ export const Pricing: React.FC = () => {
                                 ].map((feature, index) => (
                                     <li key={index} className="flex items-center gap-3">
                                         <div className="shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center">
-                                            <svg className="w-4 h-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <svg className="w-5 h-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                             </svg>
                                         </div>
