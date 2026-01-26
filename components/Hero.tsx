@@ -20,16 +20,20 @@ export const Hero: React.FC = () => {
 
       <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
         <a
-          href="https://www.apple.com/app-store/"
-          target="_blank"
+          href="#"
+          target=""
           rel="noreferrer"
-          className="bg-green-400 hover:bg-green-500 text-white font-semibold py-4 px-8 rounded-2xl shadow-lg shadow-green-200 flex items-center justify-center transition-all transform hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+          className="bg-green-400 text-white font-semibold py-4 px-8 rounded-2xl shadow-lg shadow-green-200 flex items-center justify-center cursor-not-allowed"
         >
           <Icon name="ios" className="mr-2 w-12 h-8" />
-          <span>App Store</span>
+          <div className="flex flex-col items-center">
+            <span>App Store</span>
+            <span className="text-xs">Comming soon</span>
+          </div>
         </a>
+        
         <a
-          href="https://play.google.com/store"
+          href="https://play.google.com/store/apps/details?id=com.bukos.postoifapp"
           target="_blank"
           rel="noreferrer"
           className="bg-gray-900 hover:bg-gray-800 text-white font-semibold py-4 px-8 rounded-2xl shadow-lg flex items-center justify-center transition-all transform hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
