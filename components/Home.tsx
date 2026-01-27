@@ -32,7 +32,7 @@ export const Home: React.FC = () => {
         </div>
       </div>
       <Features />
-      <div className="bg-green-50/50"><Testimonials /></div>
+      {/*<div className="bg-green-50/50"><Testimonials /></div>*/}
       <Pricing />
       <Footer />
     </div>

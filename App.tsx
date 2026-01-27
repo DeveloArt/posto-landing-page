@@ -4,8 +4,15 @@ import { Home } from './components/Home';
 import { PrivacyPolicy } from './components/PrivacyPolicy';
 import { TermsOfService } from './components/TermsOfService';
 import { ContactSupport } from './components/ContactSupport';
+import {useEffect} from 'react';
+import {useTranslation} from 'react-i18next';
 
 function App() {
+  const {t,i18n} = useTranslation();
+  useEffect(() => {
+    document.title=t("title")
+  }, [i18n.language,t]);
+
   return (
     <Router>
       <Routes>

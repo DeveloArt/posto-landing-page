@@ -1,0 +1,191 @@
+{
+    "title": "Posto - Post przerywany",
+    "nav":{
+        "features": "Funkcje",
+        "pricing": "Cennik",
+        "testimonials": "Opinie"
+    },
+    "hero":{
+        "version":"Nowa Wersja 2.0",
+        "master1":"Opanuj Swoje Ciało",
+        "master2":"Poprzez Post",
+        "desc":"Proste, skuteczne i naturalne. Dołącz do milionów osób poprawiających swoje zdrowie dzięki naszemu intuicyjnemu narzędziu do monitorowania postu. Żadnych diet, tylko odpowiednie wyczucie czasu.",
+        "soon":"Wkrótce dostępne",
+        "free":"W 100% Darmowy",
+        "add":"Bez Reklam",
+        "sub":"Bez Subskrypcji"
+    },
+    "card":{
+        "current":"Obecny post",
+        "inter":"Przerywany",
+        "elapsed":"Minęło",
+        "started":"Start",
+        "goal":"Cel",
+        "method":"Metoda potwierdzona naukowo"
+    },
+    "features":{
+        "title":"Dlaczego Posto?",
+        "desc1":"Wszystko, czego potrzebujesz, aby osiągnąć swoje cele zdrowotne",
+        "desc2":"Zapewniamy narzędzia, Ty zapewniasz sobie determinację",
+        "items":{
+            "title1":"Inteligentny Timer",
+            "desc1":"Dostosowywalne timery dla okien postu 16:8, 18:6, 20:4 lub niestandardowych okien postu dostosowanych do Twojego harmonogramu.",
+            "title2":"Szczegółowe Analizy",
+            "desc2":"Wizualizuj swoje postępy dzięki pięknym cotygodniowym wykresom, śledzeniu wagi i kluczowym markerom zdrowia.",
+            "title3":"Plany Posiłków",
+            "desc3":"Uzyskaj dostęp do tysięcy przepisów i sugestii posiłków zatwierdzonych przez ekspertów, idealnych na Twoje okno żywieniowe."
+        }
+    },
+    "testimonials":{
+        "title":"Opinie o nas",
+        "desc":"Prawdziwe historie, Prawdziwe Rezultaty",
+        "items":{
+            "name1":"Anna K.",
+            "desc1":"Posto zrewolucjonizowało moje podejście do jedzenia. Prosty interfejs i świetne funkcje sprawiają, że jest to mój ulubiony tracker postu." 
+        },
+        "verified":"Zweryfikowany",
+        "lost":"Stracił/a"
+    },
+    "pricing":{
+        "title":"Cennik",
+        "desc":"Proste, przejrzyste ceny",
+        "desc2":"Brak ukrytych opłat. Karta kredytowa nie jest wymagana.",
+        "desc3":"Ciesz się wszystkimi funkcjami całkowicie za darmo. Wierzymy w dostęp do narzędzi zdrowotnych dla każdego.",
+        "free":"Darmowy",
+        "list":{
+            "feature1":"Nieograniczona funkcjonalność",
+            "feature2":"Zero reklam",
+            "feature3":"Brak subskrypcji",
+            "feature4":"Pełna prywatność danych",
+            "feature5":"Wszystkie przyszłe aktualizacje w cenie"
+        },
+        "download":"Karta kredytowa nie jest wymagana. Po prostu pobierz aplikacje i rozpocznij post"
+    },
+    "footer":{
+        "title":"Gotowy na zmiane swojego życia?",
+        "desc":"Dołącz do społeczności i rozpocznij swoją podróż do zdrowszego życia już dziś.",
+        "button":"Zacznij za darmo",
+        "links":{
+            "privacy":"Polityka Prywatności",
+            "terms":"Warunki Korzystania",
+            "contact":"Kontakt"
+        }
+    },
+    "contact":{
+        "back":"Powrót na Stronę Główną",
+        "title":"Kontakt",
+        "desc":"Masz pytania lub potrzebujesz pomocy? Skontaktuj się z nami za pomocą poniższego formularza.",
+        "form":{
+            "name":"Imię i Nazwisko",
+            "email":"Email",
+            "subject":"Temat",
+            "selectSubject":"Wybierz temat",
+            "technical":"Problem techniczny",
+            "feature":"Sugestia funkcji",
+            "privacy":"Pytanie dotyczące prywatności",
+            "other":"Inne",
+            "message":"Wiadomość",
+            "send":"Wyślij Wiadomość",
+            "send2":"Opisz swój problem lub pytanie...",
+            "alt":"Alternatywne metody kontaktu",
+            "email2":"Email",
+            "response":"Czas odpowiedzi",
+            "response2":"24-48 godzin",
+            "urgent":"W pilnych sprawach technicznych prosimy o podanie szczegółowego opisu problemu w powyższym formularzu."
+        },
+        "thanks":"Dziękujemy za kontakt!. Odpowiemy tak szybko jak to możliwe."
+    },
+    "terms":{
+        "back":"Powrót na Stronę Główną",
+        "title":"Warunki Korzystania",
+        "1":{
+            "title":"1. Akceptacja Warunków",
+            "desc":"Korzystając z aplikacji mobilnej IF App, użytkownik akceptuje niniejsze Warunki Korzystania. Jeśli nie zgadzasz się z tymi warunkami, prosimy nie korzystać z aplikacji."
+        },
+        "2":{
+            "title":"2. Zmiany w Warunkach",
+            "desc":"Aplikacja mobilna IF App to aplikacja mobilna do śledzenia postu przerywanego. Aplikacja oferuje narzędzia do monitorowania sesji postu, śledzenia wagi i zarządzania planami postu."
+        },
+        "3":{
+            "title":"3. Używanie Aplikacji",
+            "desc":"Użytkownik zobowiązuje się do:",
+            "list":{
+                "1":"Używania aplikacji zgodnie z jej przeznaczeniem",
+                "2":"Niepodejmowania działań, które mogą zakłócić działanie aplikacji",
+                "3":"Niepróbowania uzyskania nieautoryzowanego dostępu do aplikacji",
+                "4":"Przestrzegania wszystkich obowiązujących przepisów i regulacji"
+            }
+        },
+        "4":{
+            "title":"4. Odpowiedzialność",
+            "desc":"Aplikacja jest dostarczana bez żadnych gwarancji. Użytkownik korzysta z aplikacji na własne ryzyko. Nie ponosimy odpowiedzialności za jakiekolwiek szkody wynikające z korzystania z aplikacji."
+        },
+        "5":{
+            "title":"5. Dane Użytkownika",
+            "desc":"Wszelkie dane użytkownika są przechowywane lokalnie na urządzeniu. Użytkownik jest odpowiedzialny za tworzenie kopii zapasowych swoich danych. Nie ponosimy odpowiedzialności za utratę danych."
+        },
+        "6":{
+            "title":"6. Własność Intelektualna",
+            "desc":"Wszelkie prawa własności intelektualnej do aplikacji należą do nas. Użytkownik nie może kopiować, modyfikować ani dystrybuować aplikacji bez naszej zgody."
+        },
+        "7":{
+            "title":"7. Zmiany w Warunkach",
+            "desc":"Zastrzegamy sobie prawo do wprowadzania zmian w niniejszych Warunkach Korzystania. Użytkownicy będą informowani o wszelkich zmianach poprzez aktualizacje aplikacji."
+        },
+        "8":{
+            "title":"8. Zakończenie",
+            "desc":"Możemy zawiesić lub zakończyć dostęp użytkownika do aplikacji w dowolnym momencie, jeśli użytkownik naruszy niniejsze Warunki Korzystania."
+        },
+        "9":{
+            "title":"9. Kontakt",
+            "desc":"W przypadku pytań dotyczących Warunków Korzystania, prosimy o kontakt za pośrednictwem formularza w aplikacji lub na stronie Pomoc Techniczna."
+        }
+    },
+    "privacy":{
+        "back":"Powrót na Stronę Główną",
+        "title":"Polityka Prywatności",
+        "1":{
+            "title":"Wprowadzenie",
+            "desc":"Polityka Prywatności określa zasady zbierania, przetwarzania i wykorzystywania danych osobowych w aplikacji mobilnej IF App. Aplikacja została zaprojektowana z myślą o ochronie prywatności użytkownika."
+        },
+        "2":{
+            "title":"Dane Zbierane przez Aplikację",
+            "desc":"Aplikacja zbiera następujące dane:",
+            "list":{
+                "1":"Dane dotyczące postu: czas rozpoczęcia i zakończenia postu, typ postu, cel postu",
+                "2":"Dane dotyczące wagi użytkownika",
+                "3":"Preferencje użytkownika (ustawienia powiadomień, wybrany plan postu)"
+            }
+        },
+        "3":{
+            "title":"Przechowywanie Danych",
+            "desc":"Wszystkie dane są przechowywane lokalnie na urządzeniu użytkownika. Nie są przesyłane na żadne zewnętrzne serwery ani udostępniane stronom trzecim."
+        },
+        "4":{
+            "title":"Powiadomienia",
+            "desc":"Aplikacja wykorzystuje powiadomienia lokalne do przypominania użytkownikom o rozpoczęciu i zakończeniu postu. Powiadomienia są wysyłane tylko na urządzenie użytkownika i nie wymagają dostępu do internetu."
+        },
+        "5":{
+            "title":"Prawa Użytkownika",
+            "desc":"Użytkownik ma prawo do: ",
+            "list":{
+                "1":"Dostępu do swoich danych",
+                "2":"Usunięcia swoich danych",
+                "3":"Wyłączenia powiadomień",
+                "4":"Zmiany planu postu"
+            }
+        },
+        "6":{
+            "title":"Bezpieczeństwo",
+            "desc":"Aplikacja wykorzystuje bezpieczne metody do przechowywania danych lokalnie na urządzeniu użytkownika. Wszystkie dane są szyfrowane i dostępne tylko dla użytkownika."
+        },
+        "7":{
+            "title":"Zmiany w Polityce Prywatności",
+            "desc":"Zastrzegamy sobie prawo do wprowadzania zmian w niniejszej Polityce Prywatności. Użytkownicy będą informowani o wszelkich zmianach poprzez aktualizacje aplikacji."
+        },
+        "8":{
+            "title":"Kontakt",
+            "desc":"W przypadku pytań dotyczących Polityki Prywatności, prosimy o kontakt za pośrednictwem formularza w aplikacji lub na stronie Kontakt."
+        }
+    }
+}

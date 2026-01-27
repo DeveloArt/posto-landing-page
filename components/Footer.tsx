@@ -2,8 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from './Icon';
 import logo from '../assets/images/icon.png';
+import { useTranslation } from 'react-i18next';
 
 export const Footer: React.FC = () => {
+  const { t } = useTranslation();
   const handleClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -13,14 +15,14 @@ export const Footer: React.FC = () => {
         
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center border-b border-gray-800 pb-16 mb-12 lg:ml-5 lg:mr-5">
           <div className="mb-10 lg:mb-0 max-w-xl lg:ml-5 lg:mr-5">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4">Ready to transform your life?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4">{t("footer.title")}</h2>
             <p className="text-gray-400 text-lg">
-              Join the community and start your journey to a healthier you today.
+              {t("footer.desc")}
             </p>
           </div>
           <div className="flex flex-col items-start lg:items-end shrink-0">
             <button onClick={handleClick} className="w-full lg:w-auto bg-green-400 hover:bg-green-500 text-white font-bold py-4 px-10 rounded-2xl shadow-lg shadow-green-900/50 flex items-center justify-center transition-all transform hover:-translate-y-1 mb-3 cursor-pointer">
-              Get Started For Free
+              {t("footer.button")}
             </button>
           </div>
         </div>
@@ -36,9 +38,9 @@ export const Footer: React.FC = () => {
           </Link>
 
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 mb-6 md:mb-0">
-             <Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
-             <Link to="/terms-of-service" className="hover:text-white transition-colors">Terms of Service</Link>
-             <Link to="/contact-support" className="hover:text-white transition-colors">Contact Support</Link>
+             <Link to="/privacy-policy" className="hover:text-white transition-colors">{t("footer.links.privacy")}</Link>
+             <Link to="/terms-of-service" className="hover:text-white transition-colors">{t("footer.links.terms")}</Link>
+             <Link to="/contact-support" className="hover:text-white transition-colors">{t("footer.links.contact")}</Link>
           </div>
           
           <div className="flex space-x-6 mr-5">

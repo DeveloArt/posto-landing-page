@@ -1,7 +1,9 @@
 import React from 'react';
 import { Icon } from './Icon';
+import { useTranslation } from 'react-i18next';
 
 export const StatusCard: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <div className="bg-white rounded-4xl p-4 shadow-2xl shadow-green-900/10 border border-gray-100 w-full relative z-20">
       <div className="bg-gray-50 rounded-3xl p-6 border border-gray-100 relative overflow-hidden">
@@ -9,10 +11,10 @@ export const StatusCard: React.FC = () => {
         <div className="flex justify-between items-center mb-8">
           <div>
             <p className="text-xs text-gray-500 font-bold uppercase tracking-wider mb-1">
-              Current Fast
+              {t("card.current")}
             </p>
             <h3 className="text-xl font-bold text-gray-900">
-              16:8 Intermittent
+              16:8 {t("card.inter")}
             </h3>
           </div>
           <div className="w-10 h-10 rounded-full bg-green-300 flex items-center justify-center text-green-600 shadow-sm">
@@ -28,19 +30,19 @@ export const StatusCard: React.FC = () => {
               <span className="block text-4xl font-bold text-gray-900 tracking-tighter">
                 14:20
               </span>
-              <span className="text-sm font-medium text-gray-500 uppercase tracking-wide mt-1">Elapsed</span>
+              <span className="text-sm font-medium text-gray-500 uppercase tracking-wide mt-1">{t("card.elapsed")}</span>
             </div>
           </div>
         </div>
 
         <div className="flex justify-between text-center mt-8 px-2">
           <div>
-            <p className="text-xs text-gray-400 font-medium mb-1">Started</p>
+            <p className="text-xs text-gray-400 font-medium mb-1">{t("card.started")}</p>
             <p className="text-base font-bold text-gray-700">8:00 PM</p>
           </div>
           <div className="h-8 w-px bg-gray-200"></div>
           <div>
-            <p className="text-xs text-gray-400 font-medium mb-1">Goal</p>
+            <p className="text-xs text-gray-400 font-medium mb-1">{t("card.goal")}</p>
             <p className="text-base font-bold text-gray-700">12:00 PM</p>
           </div>
         </div>
@@ -48,7 +50,7 @@ export const StatusCard: React.FC = () => {
 
       <div className="mt-5 flex items-center justify-center space-x-2 text-xs font-medium text-gray-500 bg-gray-50 py-2 rounded-xl">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="lightgreen" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-badge-check-icon lucide-badge-check stroke-green-600"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/></svg>
-        <span>Scientifically proven method</span>
+        <span>{t("card.method")}</span>
       </div>
     </div>
   );

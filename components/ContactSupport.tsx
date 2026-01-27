@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Header } from './Header';
 import { Footer } from './Footer';
+import { useTranslation } from 'react-i18next';
 
 export const ContactSupport: React.FC = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -28,7 +30,7 @@ export const ContactSupport: React.FC = () => {
 
     window.location.href = mailtoLink;
     
-    alert('Thank you for contacting us! We have opened your email application. Send the message to contact us.');
+    alert(t("contact.thanks"));
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
@@ -58,18 +60,18 @@ export const ContactSupport: React.FC = () => {
           <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
-          Back to Home
+          {t("contact.back")}
         </Link>
-        <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">Contact Support</h1>
+        <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">{t("contact.title")}</h1>
         <p className="text-gray-600 text-lg mb-12">
-          Have questions or need help? Contact us through the form below.
+          {t("contact.desc")}
         </p>
         
         <div className="bg-gray-50 rounded-3xl p-8 lg:p-12 shadow-lg w-full">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-semibold text-gray-900 mb-2">
-                Full Name
+                {t("contact.form.name")}
               </label>
               <input
                 type="text"
@@ -85,7 +87,7 @@ export const ContactSupport: React.FC = () => {
 
             <div>
               <label htmlFor="email" className="block text-sm font-semibold text-gray-900 mb-2">
-                Email
+                {t("contact.form.email")}
               </label>
               <input
                 type="email"
@@ -101,7 +103,7 @@ export const ContactSupport: React.FC = () => {
 
             <div>
               <label htmlFor="subject" className="block text-sm font-semibold text-gray-900 mb-2">
-                Subject
+                {t("contact.form.subject")}
               </label>
               <select
                 id="subject"
@@ -111,17 +113,17 @@ export const ContactSupport: React.FC = () => {
                 required
                 className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-transparent"
               >
-                <option value="">Select a subject</option>
-                <option value="technical">Technical issue</option>
-                <option value="feature">Feature suggestion</option>
-                <option value="privacy">Privacy question</option>
-                <option value="other">Other</option>
+                <option value="">{t("contact.form.selectSubject")}</option>
+                <option value="technical">{t("contact.form.technical")}</option>
+                <option value="feature">{t("contact.form.feature")}</option>
+                <option value="privacy">{t("contact.form.privacy")}</option>
+                <option value="other">{t("contact.form.other")}</option>
               </select>
             </div>
 
             <div>
               <label htmlFor="message" className="block text-sm font-semibold text-gray-900 mb-2">
-                Message
+                {t("contact.form.message")}
               </label>
               <textarea
                 id="message"
@@ -131,7 +133,7 @@ export const ContactSupport: React.FC = () => {
                 required
                 rows={6}
                 className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-transparent resize-none"
-                placeholder="Describe your problem or question..."
+                placeholder={t("contact.form.send2")}
               />
             </div>
 
@@ -139,18 +141,18 @@ export const ContactSupport: React.FC = () => {
               type="submit"
               className="w-full bg-green-400 hover:bg-green-500 text-white font-bold py-4 px-8 rounded-2xl shadow-lg shadow-green-200 transition-all transform hover:scale-[1.02] active:scale-[0.98]"
             >
-              Send Message
+              {t("contact.form.send")}
             </button>
           </form>
         </div>
 
         <div className="mt-12 p-8 bg-green-50 rounded-2xl">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Alternative Contact Methods</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">{t("contact.form.alt")}</h2>
           <div className="space-y-3 text-gray-700">
-            <p><strong>Email:</strong> support@ifapp.com</p>
-            <p><strong>Response Time:</strong> 24-48 hours</p>
+            <p><strong>{t("contact.form.email2")}:</strong> support@ifapp.com</p>
+            <p><strong>{t("contact.form.response")}:</strong> {t("contact.form.response2")}</p>
             <p className="text-sm text-gray-600">
-              For urgent technical issues, please provide a detailed description of the problem in the form above.
+              {t("contact.form.urgent")}
             </p>
           </div>
         </div>

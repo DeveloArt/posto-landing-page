@@ -2,8 +2,10 @@ import React, { useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Header } from './Header';
 import { Footer } from './Footer';
+import { useTranslation } from 'react-i18next';
 
 export const PrivacyPolicy: React.FC = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -29,71 +31,75 @@ export const PrivacyPolicy: React.FC = () => {
           <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
-          Back to Home
+          {t('privacy.back')}
         </Link>
-        <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">Privacy Policy</h1>
+        <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">{t('privacy.title')}</h1>
         
         <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Introduction</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. {t('privacy.1.title')}</h2>
             <p>
-              This Privacy Policy sets out the rules for collecting, processing, and using personal data in the IF App Mobile application. The application has been designed with user privacy protection in mind.
+              {t('privacy.1.desc')}
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Data Collected</h2>
-            <p>The application collects the following data:</p>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. {t('privacy.2.title')}</h2>
+            <p>
+              {t('privacy.2.desc')}
+            </p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Fasting session data (start time, end time, plan)</li>
-              <li>User weight data</li>
-              <li>User preferences (notification settings, selected fasting plan)</li>
+              <li>{t('privacy.2.list.1')}</li>
+              <li>{t('privacy.2.list.2')}</li>
+              <li>{t('privacy.2.list.3')}</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">3. Data Storage</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">3. {t('privacy.3.title')}</h2>
             <p>
-              All data is stored locally on the user's device. It is not transmitted to any external servers or shared with third parties.
+              {t('privacy.3.desc')}
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">4. Notifications</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">4. {t('privacy.4.title')}</h2>
             <p>
-              The application uses local notifications to remind users about the start and end of fasting periods. Notifications are sent only to the user's device and do not require internet access.
+              {t('privacy.4.desc')}
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">5. User Rights</h2>
-            <p>The user has the right to:</p>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">5. {t('privacy.5.title')}</h2>
+            <p>
+              {t('privacy.5.desc')}
+            </p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Access their data</li>
-              <li>Delete all their data</li>
-              <li>Disable notifications</li>
-              <li>Change the fasting plan</li>
+              <li>{t('privacy.5.list.1')}</li>
+              <li>{t('privacy.5.list.2')}</li>
+              <li>{t('privacy.5.list.3')}</li>
+              <li>{t('privacy.5.list.4')}</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">6. Security</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">6. {t('privacy.6.title')}</h2>
             <p>
-              The application uses secure methods to store data locally on the user's device. All data is encrypted and accessible only to the user.
+              {t('privacy.6.desc')}
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">7. Changes to Privacy Policy</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">7. {t('privacy.7.title')}</h2>
             <p>
-              We reserve the right to make changes to this Privacy Policy. Users will be informed of any changes through application updates.
+              {t('privacy.7.desc')}
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">8. Contact</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">8. {t('privacy.8.title')}</h2>
             <p>
-              For questions regarding the Privacy Policy, please contact us through the form in the application.
+              {t('privacy.8.desc')}
             </p>
           </section>
         </div>

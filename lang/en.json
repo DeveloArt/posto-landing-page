@@ -1,0 +1,193 @@
+{
+    "title": "Posto - Intermittent Fasting",
+    "nav":{
+        "features": "Features",
+        "pricing": "Pricing",
+        "testimonials": "Testimonials"
+    },
+    "hero":{
+        "version":"New v2.0 Released",
+        "master1":"Master Your Body",
+        "master2":"Through Fasting",
+        "desc":"Simple, effective, and natural. Join millions improving their health with our intuitive fasting tracker. No diets, just timing.",
+        "soon":"Coming soon",
+        "free":"Free",
+        "add":"No Ads",
+        "sub":"No Subscriptions"
+    },
+        "card":{
+        "current":"Current Post",
+        "inter":"Intermittent",
+        "elapsed":"Elapsed",
+        "started":"Started",
+        "goal":"Goal",
+        "method":"Scientifically proven method"
+    },
+    "features":{
+        "title":"Why Posto?",
+        "desc1":"Everything you need to reach your health goals",
+        "desc2":"We provide the tools, you provide the dedication",
+        "items":{
+            "title1":"Smart Timer",
+            "desc1":"Customizable timers for 16:8, 18:6, 20:4, or custom fasting windows tailored to your daily schedule.",
+            "title2":"Detailed Insights",
+            "desc2":"Visualize your progress with beautiful weekly charts, weight tracking, and key health markers.",
+            "title3":"Meal Plans",
+            "desc3":"Access thousands of expert-approved recipes and meal suggestions perfect for your eating window."
+        }
+    },
+    "testimonials":{
+        "title":"Testimonials",
+        "desc":"Real Stories, Real Results",
+        "items":{
+            "name1":"Anna K.",
+            "desc1":"Posto has revolutionized my approach to eating. The simple interface and great features make it my favorite fasting tracker."
+        },
+        "verified":"Verified",
+        "lost":"Lost"
+    },
+    "pricing":{
+        "title":"Pricing",
+        "desc":"Simple, transparent pricing",
+        "desc2":"No hidden fees. No credit card required.",
+        "desc3":"Enjoy all features completely free. We believe in accessible health tools for everyone.",
+        "free":"Free",
+        "list":{
+            "feature1":"Unlimited functionality",
+            "feature2":"Zero advertisements",
+            "feature3":"No subscription needed",
+            "feature4":"Full data privacy",
+            "feature5":"All future updates included"
+        },
+        "download":"No credit card required. Just download and start."
+    },
+    "footer":{
+        "title":"Ready to transform your life?",
+        "desc":"Join the community and start your journey to a healthier you today.",
+        "button":"Get Started For Free",
+        "links":{
+            "privacy":"Privacy Policy",
+            "terms":"Terms of Service",
+            "contact":"Contact"
+        }
+    },
+    "contact":{
+        "back":"Back to Home",
+        "title":"Contact",
+        "desc":"Have questions or need help? Contact us through the form below.",
+        "form":{
+            "name":"Full Name",
+            "email":"Email",
+            "subject":"Subject",
+            "selectSubject":"Select a subject",
+            "technical":"Technical issue",
+            "feature":"Feature suggestion",
+            "privacy":"Privacy question",
+            "other":"Other",
+            "message":"Message",
+            "send":"Send Message",
+            "send2":"Describe your problem or question...",
+            "alt":"Alternative Contact Methods",
+            "email2":"Email",
+            "response":"Response Time",
+            "response2":"24-48 hours",
+            "urgent":"For urgent technical issues, please provide a detailed description of the problem in the form above."
+        },
+        "thanks":"Thank you for contacting us!. We will response as soon as possible."
+    },
+    "terms":{
+        "back":"Back to Home",
+        "title":"Terms of Service",
+        "desc":"By using the IF App Mobile application, the user accepts these Terms of Service. If you do not agree to these terms, please do not use the application.",
+        "1":{
+            "title":"1. Acceptance of Terms",
+            "desc":"By using the IF App Mobile application, the user accepts these Terms of Service. If you do not agree to these terms, please do not use the application."
+        },
+        "2":{
+            "title":"2. Service Description",
+            "desc":"IF App Mobile is a mobile application for tracking intermittent fasting. The application offers tools for monitoring fasting sessions, tracking weight, and managing fasting plans."
+        },
+        "3":{
+            "title":"3. Use of the Application",
+            "desc":"The user agrees to:",
+            "list":{
+                "1":"Use the application in accordance with its intended purpose",
+                "2":"Not take actions that may disrupt the application's operation",
+                "3":"Not attempt to gain unauthorized access to the application",
+                "4":"Comply with all applicable laws and regulations"
+            }
+        },
+        "4":{
+            "title":"4. Liability",
+            "desc":"The application is provided as is without any warranties. The user uses the application at their own risk. We are not liable for any damages resulting from the use of the application."
+        },
+        "5":{
+            "title":"5. User Data",
+            "desc":"All user data is stored locally on the device. The user is responsible for backing up their data. We are not responsible for data loss."
+        },
+        "6":{
+            "title":"6. Intellectual Property",
+            "desc":"All intellectual property rights to the application belong to us. The user may not copy, modify, or distribute the application without our consent."
+        },
+        "7":{
+            "title":"7. Changes to Terms",
+            "desc":"We reserve the right to make changes to these Terms of Service. Users will be informed of any changes through application updates."
+        },
+        "8":{
+            "title":"8. Termination",
+            "desc":"We may suspend or terminate the user's access to the application at any time if the user violates these Terms of Service."
+        },
+        "9":{
+            "title":"9. Contact",
+            "desc":"For questions regarding the Terms of Service, please contact us through the form in the application or on the Contact Support page."
+        }
+    },
+    "privacy":{
+        "back":"Back to Home",
+        "title":"Privacy Policy",
+        "1":{
+            "title":"Introduction",
+            "desc":"This Privacy Policy sets out the rules for collecting, processing, and using personal data in the IF App Mobile application. The application has been designed with user privacy protection in mind."
+        },
+        "2":{
+            "title":"Data Collected",
+            "desc":"The application collects the following data:",
+            "list":{
+                "1":"Fasting session data (start time, end time, duration)",
+                "2":"User weight data",
+                "3":"User preferences (notification settings, selected fasting plan"
+            }
+        },
+        "3":{
+            "title":"Data Storage",
+            "desc":"All data is stored locally on the user's device. It is not transmitted to any external servers or shared with third parties."
+        },
+        "4":{
+            "title":"Notifications",
+            "desc":"The application uses local notifications to remind users about the start and end of fasting periods. Notifications are sent only to the user's device and do not require internet access."
+        },
+        "5":{
+            "title":"User Rights",
+            "desc":"The user has the right to:",
+            "list":{
+                "1":"Access their data",
+                "2":"Delete all their data",
+                "3":"Disable notifications",
+                "4":"Change the fasting plan"
+            }
+        },
+        "6":{
+            "title":"Security",
+            "desc":"The application uses secure methods to store user data locally on the device. All data is encrypted and accessible only to the user."
+        },
+        "7":{
+            "title":"Changes to Privacy Policy",
+            "desc":"We reserve the right to make changes to this Privacy Policy. Users will be informed of any changes through application updates."
+        },
+        "8":{
+            "title":"Contact",
+            "desc":"For questions regarding the Privacy Policy, please contact us through the form in the application or on the Contact Support page."
+        }
+    }
+    
+}
