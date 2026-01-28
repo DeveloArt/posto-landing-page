@@ -21,7 +21,7 @@ export const Hero: React.FC = () => {
 
       <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
         <a
-          href="#"
+          href="https://apps.apple.com/us/app/posto-fasting-app/id6751952580"
           target=""
           rel="noreferrer"
           className="bg-green-400 text-white font-semibold py-4 px-8 rounded-2xl shadow-lg shadow-green-200 flex items-center justify-center cursor-not-allowed"
