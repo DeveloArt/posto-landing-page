@@ -11,12 +11,6 @@ export const Pricing: React.FC = () => {
                     <span className="text-primary font-bold text-xs uppercase tracking-widest bg-green-100 px-4 py-1.5 rounded-full">
                         {t("pricing.title")}
                     </span>
-                    <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-6 leading-tight">
-                        {t("pricing.desc")}
-                    </h2>
-                    <p className="text-gray-500 mt-4 text-lg">
-                        {t("pricing.desc2")}
-                    </p>
                 </div>
                 
                 <div className="rounded-4xl p-8 lg:p-12 shadow-sm border-none bg-gray-50 hover:bg-green-50/50 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
