@@ -24,7 +24,7 @@ export const Pricing: React.FC = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
                     </div>
 
-                    <div className="flex flex-col lg:flex-row items-center justify-between gap-12 relative z-10 mt-5">
+                    <div className="flex flex-col lg:flex-row items-center justify-between gap-12 relative z-10 mt-5 pt-10">
                         <div className="flex-1 text-center lg:text-left">
                             <div className="flex items-baseline justify-center lg:justify-start gap-1">
                                 <span className="text-5xl font-bold text-gray-900">{t("pricing.free")}</span>
@@ -42,8 +42,7 @@ export const Pricing: React.FC = () => {
                                     t("pricing.list.feature1"),
                                     t("pricing.list.feature2"),
                                     t("pricing.list.feature3"),
-                                    t("pricing.list.feature4"),
-                                    t("pricing.list.feature5")
+                                    t("pricing.list.feature4")
                                 ].map((feature, index) => (
                                     <li key={index} className="flex items-center gap-3">
                                         <div className="shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center">
