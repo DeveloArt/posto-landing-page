@@ -91,7 +91,9 @@
             "email2":"Email",
             "response":"Czas odpowiedzi",
             "response2":"24-48 godzin",
-            "urgent":"W pilnych sprawach technicznych prosimy o podanie szczegółowego opisu problemu w powyższym formularzu."
+            "urgent":"W pilnych sprawach technicznych prosimy o podanie szczegółowego opisu problemu w powyższym formularzu.",
+            "captchaRequired":"Uzupełnij weryfikację reCAPTCHA.",
+            "captchaMissing":"reCAPTCHA nie jest skonfigurowana. Ustaw VITE_RECAPTCHA_SITE_KEY."
         },
         "thanks":"Dziękujemy za kontakt!. Odpowiemy tak szybko jak to możliwe."
     },

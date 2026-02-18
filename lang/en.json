@@ -91,7 +91,9 @@
             "email2":"Email",
             "response":"Response Time",
             "response2":"24-48 hours",
-            "urgent":"For urgent technical issues, please provide a detailed description of the problem in the form above."
+            "urgent":"For urgent technical issues, please provide a detailed description of the problem in the form above.",
+            "captchaRequired":"Please complete the reCAPTCHA verification.",
+            "captchaMissing":"reCAPTCHA is not configured. Set VITE_RECAPTCHA_SITE_KEY."
         },
         "thanks":"Thank you for contacting us!. We will response as soon as possible."
     },
