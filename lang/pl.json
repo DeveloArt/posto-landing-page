@@ -33,7 +33,13 @@
             "title2":"Szczegółowe Analizy",
             "desc2":"Wizualizuj swoje postępy dzięki pięknym cotygodniowym wykresom, śledzeniu wagi i kluczowym markerom zdrowia.",
             "title3":"Plany Posiłków",
-            "desc3":"Uzyskaj dostęp do tysięcy przepisów i sugestii posiłków zatwierdzonych przez ekspertów, idealnych na Twoje okno żywieniowe."
+            "desc3":"Uzyskaj dostęp do tysięcy przepisów i sugestii posiłków zatwierdzonych przez ekspertów, idealnych na Twoje okno żywieniowe.",
+            "title4":"Nawodnienie",
+            "desc4":"Pij odpowiednio dzięki śledzeniu spożycia wody. Ustawiaj cele, otrzymuj powiadomienia i motywacyjne przypomnienia.",
+            "title5":"Waga i BMI",
+            "desc5":"Monitoruj swoją wagę z łatwymi wykresami postępów. Automatyczne obliczanie BMI i konwersje jednostek.",
+            "title6":"Stany Metaboliczne",
+            "desc6":"Poznaj 7 faz metabolicznych podczas postu - od fazy posiłkowej po głęboką ketozę. Edukacja o tym, co dzieje się w Twoim ciele."
         }
     },
     "testimonials":{

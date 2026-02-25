@@ -35,72 +35,70 @@ export const TermsOfService: React.FC = () => {
         </Link>
         <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">{t("terms.title")}</h1>
         
+        <p className="text-lg text-gray-600 mb-8">
+          {t('terms.effectiveDate')} | {t('terms.owner')}
+        </p>
+        
         <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.1.title")}</h2>
-            <p>
-              {t("terms.1.desc")}
-            </p>
+            <p>{t("terms.1.desc")}</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.2.title")}</h2>
-            <p>
-              {t("terms.2.desc")}
-            </p>
+            <p>{t("terms.2.desc")}</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.3.title")}</h2>
-            <p>{t("terms.3.desc")}</p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>{t("terms.3.list.1")}</li>
-              <li>{t("terms.3.list.2")}</li>
-              <li>{t("terms.3.list.3")}</li>
-              <li>{t("terms.3.list.4")}</li>
-            </ul>
+            <p className="text-red-600 font-semibold">{t("terms.3.desc")}</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.4.title")}</h2>
-            <p>
-              {t("terms.4.desc")}
-            </p>
+            <p>{t("terms.4.desc")}</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.5.title")}</h2>
-            <p>
-              {t("terms.5.desc")}
-            </p>
+            <p className="mb-4">{t("terms.5.desc")}</p>
+            <ul className="list-disc pl-6 space-y-2 mb-4">
+              <li><strong>12:12</strong> - {t("terms.5.list.1")}</li>
+              <li><strong>14:10</strong> - {t("terms.5.list.2")}</li>
+              <li><strong>16:8</strong> - {t("terms.5.list.3")}</li>
+              <li><strong>18:6</strong> - {t("terms.5.list.4")}</li>
+              <li><strong>20:4</strong> - {t("terms.5.list.5")}</li>
+              <li><strong>23:1</strong> - {t("terms.5.list.6")}</li>
+            </ul>
+            <p className="font-semibold mt-4">{t("terms.5.examples.title")}</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>{t("terms.5.examples.1")}</li>
+              <li>{t("terms.5.examples.2")}</li>
+              <li>{t("terms.5.examples.3")}</li>
+            </ul>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.6.title")}</h2>
-            <p>
-              {t("terms.6.desc")}
-            </p>
+            <p className="text-red-600 font-semibold mb-2">{t("terms.6.desc")}</p>
+            <p className="mb-2">{t("terms.6.sideEffects")}</p>
+            <p className="text-red-600 font-bold">{t("terms.6.stop")}</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.7.title")}</h2>
-            <p>
-              {t("terms.7.desc")}
-            </p>
+            <p>{t("terms.7.desc")}</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.8.title")}</h2>
-            <p>
-              {t("terms.8.desc")}
-            </p>
+            <p>{t("terms.8.desc")}</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.9.title")}</h2>
-            <p>
-              {t("terms.9.desc")}
-            </p>
+            <p>{t("terms.9.desc")}</p>
           </section>
         </div>
       </div>
@@ -108,4 +106,3 @@ export const TermsOfService: React.FC = () => {
     </div>
   );
 };
-
