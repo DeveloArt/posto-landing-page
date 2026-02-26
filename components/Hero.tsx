@@ -24,12 +24,11 @@ export const Hero: React.FC = () => {
           href="https://apps.apple.com/us/app/posto-fasting-app/id6751952580"
           target=""
           rel="noreferrer"
-          className="bg-green-400 text-white font-semibold py-4 px-8 rounded-2xl shadow-lg shadow-green-200 flex items-center justify-center cursor-not-allowed"
+          className="bg-green-400 text-white font-semibold py-4 px-8 rounded-2xl shadow-lg shadow-green-200 flex items-center justify-center"
         >
           <Icon name="ios" className="mr-2 w-12 h-8" />
           <div className="flex flex-col items-center">
             <span>App Store</span>
-            <span className="text-xs">{t("hero.soon")}</span>
           </div>
         </a>
         
