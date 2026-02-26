@@ -33,7 +33,13 @@
             "title2":"Szczegółowe Analizy",
             "desc2":"Wizualizuj swoje postępy dzięki pięknym cotygodniowym wykresom, śledzeniu wagi i kluczowym markerom zdrowia.",
             "title3":"Plany Posiłków",
-            "desc3":"Uzyskaj dostęp do tysięcy przepisów i sugestii posiłków zatwierdzonych przez ekspertów, idealnych na Twoje okno żywieniowe."
+            "desc3":"Uzyskaj dostęp do tysięcy przepisów i sugestii posiłków zatwierdzonych przez ekspertów, idealnych na Twoje okno żywieniowe.",
+            "title4":"Nawodnienie",
+            "desc4":"Pij odpowiednio dzięki śledzeniu spożycia wody. Ustawiaj cele, otrzymuj powiadomienia i motywacyjne przypomnienia.",
+            "title5":"Waga i BMI",
+            "desc5":"Monitoruj swoją wagę z łatwymi wykresami postępów. Automatyczne obliczanie BMI i konwersje jednostek.",
+            "title6":"Stany Metaboliczne",
+            "desc6":"Poznaj 7 faz metabolicznych podczas postu - od fazy posiłkowej po głęboką ketozę. Edukacja o tym, co dzieje się w Twoim ciele."
         }
     },
     "testimonials":{
@@ -91,101 +97,119 @@
             "email2":"Email",
             "response":"Czas odpowiedzi",
             "response2":"24-48 godzin",
-            "urgent":"W pilnych sprawach technicznych prosimy o podanie szczegółowego opisu problemu w powyższym formularzu."
+            "urgent":"W pilnych sprawach technicznych prosimy o podanie szczegółowego opisu problemu w powyższym formularzu.",
+            "captchaRequired":"Uzupełnij weryfikację reCAPTCHA.",
+            "captchaMissing":"reCAPTCHA nie jest skonfigurowana. Ustaw VITE_RECAPTCHA_SITE_KEY."
         },
         "thanks":"Dziękujemy za kontakt!. Odpowiemy tak szybko jak to możliwe."
     },
     "terms":{
         "back":"Powrót na Stronę Główną",
-        "title":"Warunki Korzystania",
+        "title":"Regulamin",
+        "effectiveDate":"Data wejścia w życie: Styczeń 2026",
+        "owner":"DeveloArt Mateusz Bukowski",
+        "contact":"Kontakt@develoart.com",
         "1":{
-            "title":"1. Akceptacja Warunków",
-            "desc":"Korzystając z aplikacji mobilnej IF App, użytkownik akceptuje niniejsze Warunki Korzystania. Jeśli nie zgadzasz się z tymi warunkami, prosimy nie korzystać z aplikacji."
+            "title":"1. Postanowienia Ogólne",
+            "desc":"Niniejszy Regulamin określa zasady korzystania z aplikacji mobilnej Posto. Aplikacja jest własnością DeveloArt Mateusz Bukowski i służy do śledzenia postu intermitentnego, monitorowania nawodnienia oraz analizy postępów zdrowotnych. Korzystanie z aplikacji oznacza akceptację niniejszego Regulaminu."
         },
         "2":{
-            "title":"2. Zmiany w Warunkach",
-            "desc":"Aplikacja mobilna IF App to aplikacja mobilna do śledzenia postu przerywanego. Aplikacja oferuje narzędzia do monitorowania sesji postu, śledzenia wagi i zarządzania planami postu."
+            "title":"2. Funkcjonalności Aplikacji",
+            "desc":"Aplikacja oferuje: śledzenie sesji postu intermitentnego, monitorowanie spożycia wody, rejestrowanie pomiarów wagi, wyświetlanie informacji o stanach metabolicznych, statystyki i analiza postępów, powiadomienia przypominające o nawodnieniu. Wszystkie funkcjonalności są świadczone bezpłatnie."
         },
         "3":{
-            "title":"3. Używanie Aplikacji",
-            "desc":"Użytkownik zobowiązuje się do:",
-            "list":{
-                "1":"Używania aplikacji zgodnie z jej przeznaczeniem",
-                "2":"Niepodejmowania działań, które mogą zakłócić działanie aplikacji",
-                "3":"Niepróbowania uzyskania nieautoryzowanego dostępu do aplikacji",
-                "4":"Przestrzegania wszystkich obowiązujących przepisów i regulacji"
-            }
+            "title":"3. Cel Aplikacji",
+            "desc":"Aplikacja służy do śledzenia czasu postu i okna żywieniowego (tracker), a NIE jest poradnikiem medycznym. Użytkownik korzysta z niej na własną odpowiedzialność. Aplikacja nie zastępuje profesjonalnej porady lekarskiej, dietetyka ani psychologa."
         },
         "4":{
-            "title":"4. Odpowiedzialność",
-            "desc":"Aplikacja jest dostarczana bez żadnych gwarancji. Użytkownik korzysta z aplikacji na własne ryzyko. Nie ponosimy odpowiedzialności za jakiekolwiek szkody wynikające z korzystania z aplikacji."
+            "title":"4. Zasady Korzystania",
+            "desc":"Użytkownik zobowiązuje się do podawania zgodnych z prawdą danych (wiek, waga, płeć), co ma wpływ na wyliczane zapotrzebowanie i proponowane plany. Aplikacja wysyła przypomnienia o rozpoczęciu/zakończeniu postu, zgodnie z ustawionym harmonogramem użytkownika."
         },
         "5":{
-            "title":"5. Dane Użytkownika",
-            "desc":"Wszelkie dane użytkownika są przechowywane lokalnie na urządzeniu. Użytkownik jest odpowiedzialny za tworzenie kopii zapasowych swoich danych. Nie ponosimy odpowiedzialności za utratę danych."
+            "title":"5. Regulamin Postu Intermitentnego",
+            "desc":"Okres postu to czas, w którym spożywanie kalorii jest zabronione. Dozwolone są: woda (niegazowana), czarna kawa (bez mleka i cukru), herbata oraz napary ziołowe. Okno żywieniowe to czas, w którym spożywa się posiłki.",
+            "list":{
+                "1":"12:12 - Circadian Rhythm (12h post, 12h jedzenie)",
+                "2":"14:10 - Easy Start (14h post, 10h jedzenie)",
+                "3":"16:8 - Lean Gains (16h post, 8h jedzenie) - najpopularniejszy",
+                "4":"18:6 - Warrior (18h post, 6h jedzenie)",
+                "5":"20:4 - Warrior Diet (20h post, 4h jedzenie)",
+                "6":"23:1 - OMAD - One Meal A Day (23h post, 1h jedzenie)"
+            },
+            "examples":{
+                "title":"Przykładowe regulacje:",
+                "1":"16/8 (Podstawowy): Pierwszy posiłek o 12:00, ostatni o 20:00",
+                "2":"Post 36-godzinny: Post od kolacji do kolacji następnego dnia. Zaleca się 2-3 razy w tygodniu",
+                "3":"Post wodny (72h): Dłuższe głodówki wymagają spożywania wyłącznie wody, kawy lub herbaty"
+            }
         },
         "6":{
-            "title":"6. Własność Intelektualna",
-            "desc":"Wszelkie prawa własności intelektualnej do aplikacji należą do nas. Użytkownik nie może kopiować, modyfikować ani dystrybuować aplikacji bez naszej zgody."
+            "title":"6. Przeciwwskazania",
+            "desc":"Osoby z chorobami przewlekłymi, cukrzycą, zaburzeniami odżywiania, kobiety w ciąży lub karmiące NIE powinny stosować postu bez konsultacji lekarskiej.",
+            "sideEffects":"Możliwe skutki uboczne: niedobory, zaburzenia elektrolitowe, osłabienie odporności, zawroty głowy, zmęczenie.",
+            "stop":"Jeśli poczujesz się słabo lub wystąpią zawroty głowy - NATECHMIAST PRZERWIJ POST."
         },
         "7":{
-            "title":"7. Zmiany w Warunkach",
-            "desc":"Zastrzegamy sobie prawo do wprowadzania zmian w niniejszych Warunkach Korzystania. Użytkownicy będą informowani o wszelkich zmianach poprzez aktualizacje aplikacji."
+            "title":"7. Odpowiedzialność",
+            "desc":"Aplikacja jest dostarczana „jak jest" bez gwarancji. Właściciel nie ponosi odpowiedzialności za szkody wynikające z korzystania z aplikacji lub decyzje zdrowotne użytkownika. Użytkownik korzysta z aplikacji na własne ryzyko. Przed rozpoczęciem postu należy skonsultować się z lekarzem."
         },
         "8":{
-            "title":"8. Zakończenie",
-            "desc":"Możemy zawiesić lub zakończyć dostęp użytkownika do aplikacji w dowolnym momencie, jeśli użytkownik naruszy niniejsze Warunki Korzystania."
+            "title":"8. Prawa Własności Intelektualnej",
+            "desc":"Wszelkie prawa własności intelektualnej do aplikacji Posto należą do DeveloArt Mateusz Bukowski. Zabrania się kopiowania, modyfikowania lub dystrybuowania aplikacji bez pisemnej zgody właściciela."
         },
         "9":{
-            "title":"9. Kontakt",
-            "desc":"W przypadku pytań dotyczących Warunków Korzystania, prosimy o kontakt za pośrednictwem formularza w aplikacji lub na stronie Pomoc Techniczna."
+            "title":"9. Kontakt i Postanowienia Końcowe",
+            "desc":"Kontakt: Kontakt@develoart.com. Regulamin podlega prawu polskiemu. Użytkownik ma prawo usunąć aplikację i dane w dowolnym momencie."
         }
     },
     "privacy":{
         "back":"Powrót na Stronę Główną",
         "title":"Polityka Prywatności",
+        "effectiveDate":"Data wejścia w życie: Styczeń 2026",
+        "owner":"DeveloArt Mateusz Bukowski",
+        "contact":"Kontakt@develoart.com",
         "1":{
-            "title":"Wprowadzenie",
-            "desc":"Polityka Prywatności określa zasady zbierania, przetwarzania i wykorzystywania danych osobowych w aplikacji mobilnej IF App. Aplikacja została zaprojektowana z myślą o ochronie prywatności użytkownika."
+            "title":"1. Informacje Ogólne",
+            "desc":"Niniejsza Polityka Prywatności opisuje, jak aplikacja Posto gromadzi, wykorzystuje i chroni dane użytkownika. Aplikacja jest własnością DeveloArt Mateusz Bukowski. Korzystając z aplikacji, użytkownik wyraża zgodę na praktyki opisane w niniejszej Polityce Prywatności."
         },
         "2":{
-            "title":"Dane Zbierane przez Aplikację",
+            "title":"2. Dane Gromadzone Przez Aplikację",
             "desc":"Aplikacja zbiera następujące dane:",
             "list":{
-                "1":"Dane dotyczące postu: czas rozpoczęcia i zakończenia postu, typ postu, cel postu",
-                "2":"Dane dotyczące wagi użytkownika",
-                "3":"Preferencje użytkownika (ustawienia powiadomień, wybrany plan postu)"
+                "1":"Dane wprowadzane przez użytkownika: daty i czasy rozpoczęcia/zakończenia sesji postu, pomiary wagi ciała, ilość spożytej wody, ustawienia użytkownika",
+                "2":"Dane automatycznie gromadzone: informacje o urządzeniu (model, system operacyjny, wersja aplikacji), dane niezbędne do działania powiadomień",
+                "3":"Aplikacja NIE gromadzi: danych lokalizacyjnych, danych biometrycznych, informacji kontaktowych, danych z czujników zdrowotnych"
             }
         },
         "3":{
-            "title":"Przechowywanie Danych",
-            "desc":"Wszystkie dane są przechowywane lokalnie na urządzeniu użytkownika. Nie są przesyłane na żadne zewnętrzne serwery ani udostępniane stronom trzecim."
+            "title":"3. Sposób Przechowywania Danych",
+            "desc":"Wszystkie dane użytkownika są przechowywane lokalnie na urządzeniu użytkownika przy użyciu AsyncStorage. Dane NIE są przesyłane do zewnętrznych serwerów ani chmur. Użytkownik ma pełną kontrolę nad swoimi danymi i może je usunąć w dowolnym momencie (funkcja w ustawieniach aplikacji)."
         },
         "4":{
-            "title":"Powiadomienia",
-            "desc":"Aplikacja wykorzystuje powiadomienia lokalne do przypominania użytkownikom o rozpoczęciu i zakończeniu postu. Powiadomienia są wysyłane tylko na urządzenie użytkownika i nie wymagają dostępu do internetu."
+            "title":"4. Wykorzystanie Danych",
+            "desc":"Zgromadzone dane służą wyłącznie do: śledzenia sesji postu intermitentnego, obliczania statystyk i postępów, przypomnień o nawodnieniu oraz personalizacji doświadczenia użytkownika. Dane NIE są sprzedawane osobom trzecim ani wykorzystywane do profilowania reklam."
         },
         "5":{
-            "title":"Prawa Użytkownika",
-            "desc":"Użytkownik ma prawo do: ",
+            "title":"5. Prawa Użytkownika",
+            "desc":"Zgodnie z RODO (GDPR) użytkownik ma prawo do:",
             "list":{
                 "1":"Dostępu do swoich danych",
-                "2":"Usunięcia swoich danych",
-                "3":"Wyłączenia powiadomień",
-                "4":"Zmiany planu postu"
+                "2":"Sprostowania danych",
+                "3":"Usunięcia danych (funkcja dostępna w aplikacji)",
+                "4":"Przenoszenia danych (eksport do pliku)"
             }
         },
         "6":{
-            "title":"Bezpieczeństwo",
-            "desc":"Aplikacja wykorzystuje bezpieczne metody do przechowywania danych lokalnie na urządzeniu użytkownika. Wszystkie dane są szyfrowane i dostępne tylko dla użytkownika."
+            "title":"6. Bezpieczeństwo",
+            "desc":"Stosujemy odpowiednie środki techniczne i organizacyjne w celu ochrony danych użytkownika. Dane są przechowywane lokalnie, co oznacza, że dostęp do nich ma tylko użytkownik. Zalecamy używanie zabezpieczeń urządzenia (PIN, odcisk palca) oraz nieudostępnianie odblokowanego urządzenia osobom trzecim."
         },
         "7":{
-            "title":"Zmiany w Polityce Prywatności",
-            "desc":"Zastrzegamy sobie prawo do wprowadzania zmian w niniejszej Polityce Prywatności. Użytkownicy będą informowani o wszelkich zmianach poprzez aktualizacje aplikacji."
+            "title":"7. Udostępnianie Danych",
+            "desc":"Dane użytkownika NIE są udostępniane stronom trzecim, z wyjątkiem wymogów prawnych (na żądanie organów ścigania) lub aplikacji zewnętrznych, które użytkownik dobrowolnie zintegruje (np. Apple Health, Google Fit)."
         },
         "8":{
-            "title":"Kontakt",
-            "desc":"W przypadku pytań dotyczących Polityki Prywatności, prosimy o kontakt za pośrednictwem formularza w aplikacji lub na stronie Kontakt."
+            "title":"8. Kontakt",
+            "desc":"W sprawach dotyczących prywatności prosimy o kontakt: Kontakt@develoart.com. Polityka Prywatności podlega prawu polskiemu."
         }
     }
 }

@@ -35,6 +35,10 @@ export const PrivacyPolicy: React.FC = () => {
         </Link>
         <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">{t('privacy.title')}</h1>
         
+        <p className="text-lg text-gray-600 mb-8">
+          {t('privacy.effectiveDate')} | {t('privacy.owner')}
+        </p>
+        
         <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. {t('privacy.1.title')}</h2>

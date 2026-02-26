@@ -33,7 +33,13 @@
             "title2":"Detailed Insights",
             "desc2":"Visualize your progress with beautiful weekly charts, weight tracking, and key health markers.",
             "title3":"Meal Plans",
-            "desc3":"Access thousands of expert-approved recipes and meal suggestions perfect for your eating window."
+            "desc3":"Access thousands of expert-approved recipes and meal suggestions perfect for your eating window.",
+            "title4":"Hydration",
+            "desc4":"Stay properly hydrated with water intake tracking. Set goals, receive notifications, and motivational reminders.",
+            "title5":"Weight & BMI",
+            "desc5":"Monitor your weight with easy progress charts. Automatic BMI calculation and unit conversions.",
+            "title6":"Metabolic States",
+            "desc6":"Learn about the 7 metabolic phases during fasting - from the fed state to deep ketosis. Education about what's happening in your body."
         }
     },
     "testimonials":{
@@ -91,103 +97,119 @@
             "email2":"Email",
             "response":"Response Time",
             "response2":"24-48 hours",
-            "urgent":"For urgent technical issues, please provide a detailed description of the problem in the form above."
+            "urgent":"For urgent technical issues, please provide a detailed description of the problem in the form above.",
+            "captchaRequired":"Please complete the reCAPTCHA verification.",
+            "captchaMissing":"reCAPTCHA is not configured. Set VITE_RECAPTCHA_SITE_KEY."
         },
         "thanks":"Thank you for contacting us!. We will response as soon as possible."
     },
     "terms":{
         "back":"Back to Home",
         "title":"Terms of Service",
-        "desc":"By using the IF App Mobile application, the user accepts these Terms of Service. If you do not agree to these terms, please do not use the application.",
+        "effectiveDate":"Effective Date: January 2026",
+        "owner":"DeveloArt Mateusz Bukowski",
+        "contact":"Kontakt@develoart.com",
         "1":{
-            "title":"1. Acceptance of Terms",
-            "desc":"By using the IF App Mobile application, the user accepts these Terms of Service. If you do not agree to these terms, please do not use the application."
+            "title":"1. General Provisions",
+            "desc":"These Terms of Service define the rules for using the Posto mobile application. The application is owned by DeveloArt Mateusz Bukowski and serves to track intermittent fasting, monitor hydration, and analyze health progress. By using the application, you accept these Terms of Service."
         },
         "2":{
-            "title":"2. Service Description",
-            "desc":"IF App Mobile is a mobile application for tracking intermittent fasting. The application offers tools for monitoring fasting sessions, tracking weight, and managing fasting plans."
+            "title":"2. Application Features",
+            "desc":"The application offers: tracking intermittent fasting sessions, monitoring water intake, recording weight measurements, displaying metabolic state information, statistics and progress analysis, and hydration reminder notifications. All features are provided free of charge."
         },
         "3":{
-            "title":"3. Use of the Application",
-            "desc":"The user agrees to:",
-            "list":{
-                "1":"Use the application in accordance with its intended purpose",
-                "2":"Not take actions that may disrupt the application's operation",
-                "3":"Not attempt to gain unauthorized access to the application",
-                "4":"Comply with all applicable laws and regulations"
-            }
+            "title":"3. Purpose of the Application",
+            "desc":"The application serves to track fasting time and eating windows (tracker), and is NOT a medical advice guide. The user uses it at their own risk. The application does not replace professional medical, nutritional, or psychological advice."
         },
         "4":{
-            "title":"4. Liability",
-            "desc":"The application is provided as is without any warranties. The user uses the application at their own risk. We are not liable for any damages resulting from the use of the application."
+            "title":"4. Terms of Use",
+            "desc":"The user agrees to provide truthful data (age, weight, gender), which affects calculated requirements and proposed plans. The application sends reminders about starting/ending fasting according to the user's set schedule."
         },
         "5":{
-            "title":"5. User Data",
-            "desc":"All user data is stored locally on the device. The user is responsible for backing up their data. We are not responsible for data loss."
+            "title":"5. Intermittent Fasting Rules",
+            "desc":"Fasting period is the time when calorie consumption is prohibited. Allowed: water (still), black coffee (no milk or sugar), tea, and herbal infusions. Eating window is the time when meals are consumed.",
+            "list":{
+                "1":"12:12 - Circadian Rhythm (12h fasting, 12h eating)",
+                "2":"14:10 - Easy Start (14h fasting, 10h eating)",
+                "3":"16:8 - Lean Gains (16h fasting, 8h eating) - most popular",
+                "4":"18:6 - Warrior (18h fasting, 6h eating)",
+                "5":"20:4 - Warrior Diet (20h fasting, 4h eating)",
+                "6":"23:1 - OMAD - One Meal A Day (23h fasting, 1h eating)"
+            },
+            "examples":{
+                "title":"Example schedules:",
+                "1":"16/8 (Basic): First meal at 12:00, last at 20:00",
+                "2":"36-hour Fast: Fast from dinner to dinner the next day. Recommended 2-3 times per week",
+                "3":"Water Fast (72h): Longer fasts require consuming only water, coffee, or tea"
+            }
         },
         "6":{
-            "title":"6. Intellectual Property",
-            "desc":"All intellectual property rights to the application belong to us. The user may not copy, modify, or distribute the application without our consent."
+            "title":"6. Contraindications",
+            "desc":"People with chronic diseases, diabetes, eating disorders, pregnant or breastfeeding women should NOT fast without consulting a doctor.",
+            "sideEffects":"Possible side effects: vitamin/mineral deficiencies, electrolyte imbalances, weakened immunity, dizziness, fatigue.",
+            "stop":"If you feel unwell or experience dizziness - IMMEDIATELY BREAK THE FAST."
         },
         "7":{
-            "title":"7. Changes to Terms",
-            "desc":"We reserve the right to make changes to these Terms of Service. Users will be informed of any changes through application updates."
+            "title":"7. Liability",
+            "desc":"The application is provided 'as is' without warranties. The owner is not liable for damages resulting from using the app or user's health decisions. User uses the app at their own risk. Consult a doctor before starting fasting."
         },
         "8":{
-            "title":"8. Termination",
-            "desc":"We may suspend or terminate the user's access to the application at any time if the user violates these Terms of Service."
+            "title":"8. Intellectual Property",
+            "desc":"All intellectual property rights to the Posto application belong to DeveloArt Mateusz Bukowski. Copying, modifying, or distributing the app without written permission is prohibited."
         },
         "9":{
-            "title":"9. Contact",
-            "desc":"For questions regarding the Terms of Service, please contact us through the form in the application or on the Contact Support page."
+            "title":"9. Contact and Final Provisions",
+            "desc":"Contact: Kontakt@develoart.com. Terms of Service are governed by Polish law. The user has the right to delete the app and data at any time."
         }
     },
     "privacy":{
         "back":"Back to Home",
         "title":"Privacy Policy",
+        "effectiveDate":"Effective Date: January 2026",
+        "owner":"DeveloArt Mateusz Bukowski",
+        "contact":"Kontakt@develoart.com",
         "1":{
-            "title":"Introduction",
-            "desc":"This Privacy Policy sets out the rules for collecting, processing, and using personal data in the IF App Mobile application. The application has been designed with user privacy protection in mind."
+            "title":"1. General Information",
+            "desc":"This Privacy Policy describes how the Posto application collects, uses, and protects user data. The application is owned by DeveloArt Mateusz Bukowski. By using the application, the user consents to the practices described in this Privacy Policy."
         },
         "2":{
-            "title":"Data Collected",
+            "title":"2. Data Collected",
             "desc":"The application collects the following data:",
             "list":{
-                "1":"Fasting session data (start time, end time, duration)",
-                "2":"User weight data",
-                "3":"User preferences (notification settings, selected fasting plan"
+                "1":"Data entered by the user: dates and times of fasting session start/end, body weight measurements, water intake, user preferences",
+                "2":"Automatically collected data: device information (model, OS, app version), data necessary for notifications",
+                "3":"The app does NOT collect: location data, biometric data, contact information, health sensor data"
             }
         },
         "3":{
-            "title":"Data Storage",
-            "desc":"All data is stored locally on the user's device. It is not transmitted to any external servers or shared with third parties."
+            "title":"3. Data Storage",
+            "desc":"All user data is stored locally on the user's device using AsyncStorage. Data is NOT transmitted to external servers or the cloud. The user has full control over their data and can delete it at any time (function available in app settings)."
         },
         "4":{
-            "title":"Notifications",
-            "desc":"The application uses local notifications to remind users about the start and end of fasting periods. Notifications are sent only to the user's device and do not require internet access."
+            "title":"4. Data Use",
+            "desc":"Collected data is used exclusively for: tracking intermittent fasting sessions, calculating statistics and progress, hydration reminders, and personalizing the user experience. Data is NOT sold to third parties or used for ad profiling."
         },
         "5":{
-            "title":"User Rights",
-            "desc":"The user has the right to:",
+            "title":"5. User Rights",
+            "desc":"In accordance with GDPR, the user has the right to:",
             "list":{
                 "1":"Access their data",
-                "2":"Delete all their data",
-                "3":"Disable notifications",
-                "4":"Change the fasting plan"
+                "2":"Correct their data",
+                "3":"Delete their data (function available in the app)",
+                "4":"Export their data (export to file)"
             }
         },
         "6":{
-            "title":"Security",
-            "desc":"The application uses secure methods to store user data locally on the device. All data is encrypted and accessible only to the user."
+            "title":"6. Security",
+            "desc":"We apply appropriate technical and organizational measures to protect user data. Data is stored locally, meaning only the user has access to it. We recommend using device security (PIN, fingerprint) and not sharing an unlocked device with others."
         },
         "7":{
-            "title":"Changes to Privacy Policy",
-            "desc":"We reserve the right to make changes to this Privacy Policy. Users will be informed of any changes through application updates."
+            "title":"7. Data Sharing",
+            "desc":"User data is NOT shared with third parties, except for legal requirements (at the request of law enforcement) or external applications that the user voluntarily integrates (e.g., Apple Health, Google Fit)."
         },
         "8":{
-            "title":"Contact",
-            "desc":"For questions regarding the Privacy Policy, please contact us through the form in the application or on the Contact Support page."
+            "title":"8. Contact",
+            "desc":"For privacy-related matters, please contact: Kontakt@develoart.com. The Privacy Policy is governed by Polish law."
         }
     }
-    
 }

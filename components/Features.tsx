@@ -20,6 +20,34 @@ export const Features: React.FC = () => {
       colorClass: 'text-blue-600',
       iconBgClass: 'bg-blue-100',
     },
+    {
+      icon: 'restaurant_menu',
+      title: `${t("features.items.title3")}`,
+      description: `${t("features.items.desc3")}`,
+      colorClass: 'text-orange-600',
+      iconBgClass: 'bg-orange-100',
+    },
+    {
+      icon: 'water_drop',
+      title: `${t("features.items.title4")}`,
+      description: `${t("features.items.desc4")}`,
+      colorClass: 'text-cyan-600',
+      iconBgClass: 'bg-cyan-100',
+    },
+    {
+      icon: 'scale',
+      title: `${t("features.items.title5")}`,
+      description: `${t("features.items.desc5")}`,
+      colorClass: 'text-purple-600',
+      iconBgClass: 'bg-purple-100',
+    },
+    {
+      icon: 'metabolism',
+      title: `${t("features.items.title6")}`,
+      description: `${t("features.items.desc6")}`,
+      colorClass: 'text-red-600',
+      iconBgClass: 'bg-red-100',
+    },
   ];
   return (
     <section className="px-6 py-20 lg:py-28 bg-white max-w-full mx-auto" id="features">

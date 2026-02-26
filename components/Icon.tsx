@@ -89,6 +89,55 @@ export const Icon: React.FC<IconProps> = ({ name, className = "", filled = false
           <path d="M7 15l3-7 4 9 3-6" />
         </svg>
       );
+    case 'water_drop':
+      return (
+        <svg
+          viewBox="0 0 24 24"
+          className={className}
+          fill="currentColor"
+        >
+          <path d="M12 2c-5.33 4.55-8 8.48-8 11.8 0 4.98 3.8 8.2 8 8.2s8-3.22 8-8.2c0-3.32-2.67-7.25-8-11.8zm0 18c-3.35 0-6-2.57-6-6.2 0-2.34 1.95-5.44 6-9.14 4.05 3.7 6 6.79 6 9.14 0 3.63-2.65 6.2-6 6.2z" />
+        </svg>
+      );
+    case 'scale':
+      return (
+        <svg
+          viewBox="0 0 24 24"
+          className={className}
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={filled ? 2.4 : 2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M16 16v4H8v-4" />
+          <path d="M12 12v8" />
+          <path d="M8 8h8" />
+          <rect x="4" y="4" width="16" height="8" rx="1" />
+        </svg>
+      );
+    case 'metabolism':
+      return (
+        <svg
+          viewBox="0 0 24 24"
+          className={className}
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={filled ? 2.4 : 2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M12 2v4" />
+          <path d="m4.93 10.93 2.83 2.83" />
+          <path d="M2 18h2" />
+          <path d="M20 18h2" />
+          <path d="m19.07 10.93-2.83 2.83" />
+          <path d="M22 22H2" />
+          <path d="m16 6-4 4" />
+          <path d="M12 12v4" />
+          <circle cx="12" cy="18" r="4" />
+        </svg>
+      );
     case 'restaurant_menu':
       return (
         <svg

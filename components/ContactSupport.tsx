@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next';
 export const ContactSupport: React.FC = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const recaptchaSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -21,15 +22,22 @@ export const ContactSupport: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    const token = (window as any).grecaptcha?.getResponse?.();
+
+    if (!token) {
+      alert(t("contact.form.captchaRequired"));
+      return;
+    }
 
     const subject = encodeURIComponent(`${formData.subject}: ${formData.name}`);
     const body = encodeURIComponent(
       `Full Name: ${formData.name}\nEmail: ${formData.email}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`
     );
-    const mailtoLink = `mailto:support@ifapp.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:posto@develoart.pl?subject=${subject}&body=${body}`;
 
     window.location.href = mailtoLink;
-    
+    (window as any).grecaptcha?.reset?.();
+
     alert(t("contact.thanks"));
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
@@ -143,13 +151,21 @@ export const ContactSupport: React.FC = () => {
             >
               {t("contact.form.send")}
             </button>
+            {recaptchaSiteKey ? (
+              <div
+                className="g-recaptcha"
+                data-sitekey={recaptchaSiteKey}
+              />
+            ) : (
+              <p className="text-sm text-red-600">{t("contact.form.captchaMissing")}</p>
+            )}
           </form>
         </div>
 
         <div className="mt-12 p-8 bg-green-50 rounded-2xl">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">{t("contact.form.alt")}</h2>
           <div className="space-y-3 text-gray-700">
-            <p><strong>{t("contact.form.email2")}:</strong> support@ifapp.com</p>
+            <p><strong>{t("contact.form.email2")}:</strong> posto@develoart.pl</p>
             <p><strong>{t("contact.form.response")}:</strong> {t("contact.form.response2")}</p>
             <p className="text-sm text-gray-600">
               {t("contact.form.urgent")}
@@ -161,4 +177,3 @@ export const ContactSupport: React.FC = () => {
     </div>
   );
 };
-
