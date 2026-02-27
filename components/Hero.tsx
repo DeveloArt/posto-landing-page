@@ -10,6 +10,7 @@ export const Hero: React.FC = () => {
         <span className="mr-2">✨</span> {t("hero.version")}
       </div>
       
+      
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
         {t("hero.master1")} <br className="hidden lg:block" />
         <span className="text-primary">{t("hero.master2")}</span>
