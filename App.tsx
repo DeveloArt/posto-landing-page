@@ -14,7 +14,7 @@ function App() {
   }, [i18n.language,t]);
 
   return (
-    <Router basename={import.meta.env.PROD ? "/posto" : "/"}>
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />

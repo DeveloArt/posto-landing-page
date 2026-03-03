@@ -162,6 +162,10 @@
             "desc":"Kontakt: Kontakt@develoart.com. Regulamin podlega prawu polskiemu. Użytkownik ma prawo usunąć aplikację i dane w dowolnym momencie."
         }
     },
+    "mealPlans":{
+        "title": "Odkryj Pyszne Plany Posiłków",
+        "description": "Uzyskaj dostęp do tysięcy przepisów i sugestii posiłków zatwierdzonych przez ekspertów, idealnych na Twoje okno żywieniowe. Filtruj według typu posiłku i trudności, aby znaleźć dokładnie to, czego potrzebujesz."
+    },
     "privacy":{
         "back":"Powrót na Stronę Główną",
         "title":"Polityka Prywatności",

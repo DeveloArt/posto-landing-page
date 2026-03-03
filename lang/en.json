@@ -162,6 +162,10 @@
             "desc":"Contact: Kontakt@develoart.com. Terms of Service are governed by Polish law. The user has the right to delete the app and data at any time."
         }
     },
+    "mealPlans":{
+        "title": "Discover Delicious Meal Plans",
+        "description": "Access thousands of expert-approved recipes and meal suggestions perfect for your eating window. Filter by meal type and difficulty to find exactly what you need."
+    },
     "privacy":{
         "back":"Back to Home",
         "title":"Privacy Policy",
