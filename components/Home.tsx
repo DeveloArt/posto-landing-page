@@ -33,7 +33,7 @@ export const Home: React.FC = () => {
         </div>
       </div>
       <Features />
-      <MealPlans />
+      {/* <MealPlans /> */}
       {/*<div className="bg-green-50/50"><Testimonials /></div>*/}
       <Pricing />
       <Footer />
