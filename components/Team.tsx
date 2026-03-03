@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next';
 interface TeamMember {
   name: string;
   position: string;
-  description: string;
   imageUrl: string;
   linkedinUrl?: string;
 }
@@ -16,8 +15,7 @@ export const Team: React.FC = () => {
   const teamMembers: TeamMember[] = [
     {
       name: "Mateusz Bukowski",
-      position: "Full Stack Developer & Founder",
-      description: "React, TypeScript, and mobile app development specialist",
+      position: "Product Manager & Tech Lead",
       imageUrl: "https://via.placeholder.com/150x150/4F46E5/FFFFFF?text=MB",
       linkedinUrl: "https://www.linkedin.com/in/mateusz-bukowski-048992190/"
     },

@@ -38,6 +38,14 @@ export const TermsOfService: React.FC = () => {
         <p className="text-lg text-gray-600 mb-8">
           {t('terms.effectiveDate')} | {t('terms.owner')}
         </p>
+
+        {/* Medical Disclaimer */}
+        <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-8 rounded-r-lg">
+          <h2 className="text-xl font-bold text-red-800 mb-3">{t('terms.medicalDisclaimer.title')}</h2>
+          <p className="text-red-900 mb-4">{t('terms.medicalDisclaimer.desc')}</p>
+          <p className="text-red-900 font-medium mb-3">{t('terms.medicalDisclaimer.consult')}</p>
+          <p className="text-red-900">{t('terms.medicalDisclaimer.notReplace')}</p>
+        </div>
         
         <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
           <section>
@@ -99,6 +107,11 @@ export const TermsOfService: React.FC = () => {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.9.title")}</h2>
             <p>{t("terms.9.desc")}</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.10.title")}</h2>
+            <p>{t("terms.10.desc")}</p>
           </section>
         </div>
       </div>

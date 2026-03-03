@@ -38,6 +38,13 @@ export const PrivacyPolicy: React.FC = () => {
         <p className="text-lg text-gray-600 mb-8">
           {t('privacy.effectiveDate')} | {t('privacy.owner')}
         </p>
+
+        {/* Medical Disclaimer */}
+        <div className="bg-amber-50 border-l-4 border-amber-500 p-6 mb-8 rounded-r-lg">
+          <h2 className="text-xl font-bold text-amber-800 mb-3">{t('privacy.medicalDisclaimer.title')}</h2>
+          <p className="text-amber-900 mb-4">{t('privacy.medicalDisclaimer.desc')}</p>
+          <p className="text-amber-900 font-medium">{t('privacy.medicalDisclaimer.consult')}</p>
+        </div>
         
         <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
           <section>
@@ -106,10 +113,16 @@ export const PrivacyPolicy: React.FC = () => {
               {t('privacy.8.desc')}
             </p>
           </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">9. {t('privacy.9.title')}</h2>
+            <p>
+              {t('privacy.9.desc')}
+            </p>
+          </section>
         </div>
       </div>
       <Footer />
     </div>
   );
 };
-

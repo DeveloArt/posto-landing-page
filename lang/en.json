@@ -32,14 +32,15 @@
             "desc1":"Customizable timers for 16:8, 18:6, 20:4, or custom fasting windows tailored to your daily schedule.",
             "title2":"Detailed Insights",
             "desc2":"Visualize your progress with beautiful weekly charts, weight tracking, and key health markers.",
-            "title3":"Meal Plans",
-            "desc3":"Access thousands of expert-approved recipes and meal suggestions perfect for your eating window.",
             "title4":"Hydration",
             "desc4":"Stay properly hydrated with water intake tracking. Set goals, receive notifications, and motivational reminders.",
             "title5":"Weight & BMI",
             "desc5":"Monitor your weight with easy progress charts. Automatic BMI calculation and unit conversions.",
             "title6":"Metabolic States",
-            "desc6":"Learn about the 7 metabolic phases during fasting - from the fed state to deep ketosis. Education about what's happening in your body."
+            "desc6":"Learn about the 7 metabolic phases during fasting - from the fed state to deep ketosis. Education about what's happening in your body.",
+            "title7":"Dietitian Network",
+            "desc7":"Access a curated list of dietitians and nutritionists specializing in intermittent fasting. Book consultations directly through the app.",
+            "comingSoon":"Coming Soon"
         }
     },
     "testimonials":{
@@ -113,6 +114,12 @@
         "effectiveDate":"Effective Date: January 2026",
         "owner":"DeveloArt Mateusz Bukowski",
         "contact":"Kontakt@develoart.com",
+        "medicalDisclaimer":{
+            "title":"⚕️ Medical Disclaimer - Important",
+            "desc":"Posto is NOT a medical application. It does NOT provide medical advice, diagnosis, or treatment. The application is intended solely as a tool to track fasting time and support a healthy lifestyle.",
+            "consult":"BEFORE USING THIS APP: Consult with your physician or a qualified healthcare professional, especially if you have any medical conditions, take medications, or have concerns about your health. Intermittent fasting may not be suitable for everyone.",
+            "notReplace":"This application does NOT replace professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition."
+        },
         "1":{
             "title":"1. General Provisions",
             "desc":"These Terms of Service define the rules for using the Posto mobile application. The application is owned by DeveloArt Mateusz Bukowski and serves to track intermittent fasting, monitor hydration, and analyze health progress. By using the application, you accept these Terms of Service."
@@ -164,11 +171,11 @@
         "9":{
             "title":"9. Contact and Final Provisions",
             "desc":"Contact: Kontakt@develoart.com. Terms of Service are governed by Polish law. The user has the right to delete the app and data at any time."
+        },
+        "10":{
+            "title":"10. Health Warning",
+            "desc":"DO NOT use this app if: You have diabetes (type 1 or type 2), You have or have had eating disorders, You are pregnant or breastfeeding, You have chronic illnesses (heart disease, kidney disease, liver disease), You take medications that require food intake, You have low blood pressure or anemia. STOP using the app immediately and consult a doctor if you experience: dizziness, fainting, weakness, chest pain, irregular heartbeat, severe headache, confusion, or any other concerning symptoms."
         }
-    },
-    "mealPlans":{
-        "title": "Discover Delicious Meal Plans",
-        "description": "Access thousands of expert-approved recipes and meal suggestions perfect for your eating window. Filter by meal type and difficulty to find exactly what you need."
     },
     "privacy":{
         "back":"Back to Home",
@@ -176,6 +183,11 @@
         "effectiveDate":"Effective Date: January 2026",
         "owner":"DeveloArt Mateusz Bukowski",
         "contact":"Kontakt@develoart.com",
+        "medicalDisclaimer":{
+            "title":"⚕️ Medical Disclaimer",
+            "desc":"Posto is NOT a medical device. The application does not provide medical advice, diagnosis, or treatment. All information provided in the app is for educational purposes only and should not be considered as medical advice.",
+            "consult":"Always consult with a qualified healthcare professional before making any changes to your diet, starting an intermittent fasting regimen, or if you have any health concerns. Your doctor can help you determine if intermittent fasting is appropriate for your individual health situation."
+        },
         "1":{
             "title":"1. General Information",
             "desc":"This Privacy Policy describes how the Posto application collects, uses, and protects user data. The application is owned by DeveloArt Mateusz Bukowski. By using the application, the user consents to the practices described in this Privacy Policy."
@@ -218,6 +230,10 @@
         "8":{
             "title":"8. Contact",
             "desc":"For privacy-related matters, please contact: Kontakt@develoart.com. The Privacy Policy is governed by Polish law."
+        },
+        "9":{
+            "title":"9. Important Health Notice",
+            "desc":"Intermittent fasting may not be suitable for everyone. Individuals with the following conditions should NOT use this app without consulting a healthcare provider: diabetes (type 1 or type 2), eating disorders (anorexia, bulimia, binge eating), pregnancy or breastfeeding, chronic illnesses, metabolic disorders, or those taking medications that require food intake. If you experience dizziness, weakness, or any adverse symptoms while fasting, immediately break your fast and consult a doctor."
         }
     }
 }

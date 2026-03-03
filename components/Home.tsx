@@ -5,7 +5,6 @@ import { Hero } from './Hero';
 import { StatusCard } from './StatusCard';
 import { Features } from './Features';
 import { Team } from './Team';
-import { MealPlans } from './MealPlans';
 import { Testimonials } from './Testimonials';
 import { Footer } from './Footer';
 import { Pricing } from './Pricing';
@@ -34,10 +33,8 @@ export const Home: React.FC = () => {
         </div>
       </div>
       <Features />
-      <Team />
-      <MealPlans />
-      {/*<div className="bg-green-50/50"><Testimonials /></div>*/}
       <Pricing />
+      <Team />
       <Footer />
     </div>
   );
