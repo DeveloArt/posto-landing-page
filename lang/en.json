@@ -67,6 +67,10 @@
         },
         "download":"No credit card required. Just download and start."
     },
+    "team":{
+        "title":"The Team Behind Posto",
+        "description":"Meet the talented developers who are building the future of intermittent fasting tracking"
+    },
     "footer":{
         "title":"Ready to transform your life?",
         "desc":"Join the community and start your journey to a healthier you today.",

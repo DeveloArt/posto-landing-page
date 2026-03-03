@@ -67,6 +67,10 @@
         },
         "download":"Karta kredytowa nie jest wymagana. Po prostu pobierz aplikacje i rozpocznij post"
     },
+    "team":{
+        "title":"Zespół Stojący za Posto",
+        "description":"Poznaj utalentowanych deweloperów, którzy budują przyszłość śledzenia postu przerywanego"
+    },
     "footer":{
         "title":"Gotowy na zmiane swojego życia?",
         "desc":"Dołącz do społeczności i rozpocznij swoją podróż do zdrowszego życia już dziś.",
