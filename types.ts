@@ -4,6 +4,7 @@ export interface FeatureItem {
   description: string;
   colorClass: string;
   iconBgClass: string;
+  comingSoon?: boolean;
 }
 
 export interface TestimonialData {

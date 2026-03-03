@@ -21,13 +21,6 @@ export const Features: React.FC = () => {
       iconBgClass: 'bg-blue-100',
     },
     {
-      icon: 'restaurant_menu',
-      title: `${t("features.items.title3")}`,
-      description: `${t("features.items.desc3")}`,
-      colorClass: 'text-orange-600',
-      iconBgClass: 'bg-orange-100',
-    },
-    {
       icon: 'water_drop',
       title: `${t("features.items.title4")}`,
       description: `${t("features.items.desc4")}`,
@@ -48,6 +41,14 @@ export const Features: React.FC = () => {
       colorClass: 'text-red-600',
       iconBgClass: 'bg-red-100',
     },
+    {
+      icon: 'medical_services',
+      title: `${t("features.items.title7")}`,
+      description: `${t("features.items.desc7")}`,
+      colorClass: 'text-emerald-600',
+      iconBgClass: 'bg-emerald-100',
+      comingSoon: true,
+    },
   ];
   return (
     <section className="px-6 py-20 lg:py-28 bg-white max-w-full mx-auto" id="features">
@@ -65,8 +66,13 @@ export const Features: React.FC = () => {
         {features.map((feature, index) => (
           <div
             key={index}
-            className="flex flex-col items-start p-8 rounded-3xl bg-gray-50 hover:bg-green-50/50 hover:shadow-lg transition-all duration-300 group"
+            className={`flex flex-col items-start p-8 rounded-3xl bg-gray-50 hover:bg-green-50/50 hover:shadow-lg transition-all duration-300 group ${feature.comingSoon ? 'relative overflow-hidden' : ''}`}
           >
+            {feature.comingSoon && (
+              <div className="absolute top-4 right-4 bg-amber-100 text-amber-800 text-xs font-bold px-3 py-1 rounded-full">
+                {t("features.items.comingSoon")}
+              </div>
+            )}
             <div
               className={`w-14 h-14 rounded-2xl ${feature.iconBgClass} ${feature.colorClass} flex items-center justify-center shrink-0 mb-6 group-hover:scale-110 transition-transform`}
             >
@@ -78,6 +84,11 @@ export const Features: React.FC = () => {
                 {feature.description}
               </p>
             </div>
+            {feature.comingSoon && (
+              <div className="absolute inset-0 bg-gray-50/80 flex items-center justify-center">
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white/90"></div>
+              </div>
+            )}
           </div>
         ))}
       </div>

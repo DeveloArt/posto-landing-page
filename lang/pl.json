@@ -32,14 +32,15 @@
             "desc1":"Dostosowywalne timery dla okien postu 16:8, 18:6, 20:4 lub niestandardowych okien postu dostosowanych do Twojego harmonogramu.",
             "title2":"Szczegółowe Analizy",
             "desc2":"Wizualizuj swoje postępy dzięki pięknym cotygodniowym wykresom, śledzeniu wagi i kluczowym markerom zdrowia.",
-            "title3":"Plany Posiłków",
-            "desc3":"Uzyskaj dostęp do tysięcy przepisów i sugestii posiłków zatwierdzonych przez ekspertów, idealnych na Twoje okno żywieniowe.",
             "title4":"Nawodnienie",
             "desc4":"Pij odpowiednio dzięki śledzeniu spożycia wody. Ustawiaj cele, otrzymuj powiadomienia i motywacyjne przypomnienia.",
             "title5":"Waga i BMI",
             "desc5":"Monitoruj swoją wagę z łatwymi wykresami postępów. Automatyczne obliczanie BMI i konwersje jednostek.",
             "title6":"Stany Metaboliczne",
-            "desc6":"Poznaj 7 faz metabolicznych podczas postu - od fazy posiłkowej po głęboką ketozę. Edukacja o tym, co dzieje się w Twoim ciele."
+            "desc6":"Poznaj 7 faz metabolicznych podczas postu - od fazy posiłkowej po głęboką ketozę. Edukacja o tym, co dzieje się w Twoim ciele.",
+            "title7":"Sieć Dietetyków",
+            "desc7":"Uzyskaj dostęp do wyselekcjonowanej listy dietetyków i specjalistów od żywienia specjalizujących się w poście przerywanym. Umawiaj konsultacje bezpośrednio przez aplikację.",
+            "comingSoon":"Wkrótce"
         }
     },
     "testimonials":{
@@ -66,6 +67,10 @@
             "feature5":"Wszystkie przyszłe aktualizacje w cenie"
         },
         "download":"Karta kredytowa nie jest wymagana. Po prostu pobierz aplikacje i rozpocznij post"
+    },
+    "team":{
+        "title":"Zespół Stojący za Posto",
+        "description":"Poznaj utalentowanych deweloperów, którzy budują przyszłość śledzenia postu przerywanego"
     },
     "footer":{
         "title":"Gotowy na zmiane swojego życia?",
@@ -109,6 +114,12 @@
         "effectiveDate":"Data wejścia w życie: Styczeń 2026",
         "owner":"DeveloArt Mateusz Bukowski",
         "contact":"Kontakt@develoart.com",
+        "medicalDisclaimer":{
+            "title":"⚕️ Zastrzeżenie Medyczne - Ważne",
+            "desc":"Posto NIE jest aplikacją medyczną. NIE udziela porad medycznych, diagnoz ani leczenia. Aplikacja służy wyłącznie jako narzędzie do śledzenia czasu postu i wspierania zdrowego stylu życia.",
+            "consult":"PRZED KORZYSTANIEM Z TEJ APLIKACJI: Skonsultuj się ze swoim lekarzem lub wykwalifikowanym specjalistą, szczególnie jeśli masz jakiekolwiek schorzenia, przyjmujesz leki lub masz wątpliwości dotyczące swojego zdrowia. Post przerywany może nie być odpowiedni dla każgo.",
+            "notReplace":"Ta aplikacja NIE zastępuje profesjonalnej porady medycznej, diagnozy ani leczenia. Zawsze seek porady swojego lekarza lub innego wykwalifikowanego specjalisty w przypadku jakichkolwiek pytań dotyczących stanu zdrowia."
+        },
         "1":{
             "title":"1. Postanowienia Ogólne",
             "desc":"Niniejszy Regulamin określa zasady korzystania z aplikacji mobilnej Posto. Aplikacja jest własnością DeveloArt Mateusz Bukowski i służy do śledzenia postu intermitentnego, monitorowania nawodnienia oraz analizy postępów zdrowotnych. Korzystanie z aplikacji oznacza akceptację niniejszego Regulaminu."
@@ -151,7 +162,7 @@
         },
         "7":{
             "title":"7. Odpowiedzialność",
-            "desc":"Aplikacja jest dostarczana jak jest bez gwarancji. Wlasciciel nie ponosi odpowiedzialnosci za szkody wynikajace z korzystania z aplikacji lub decyzje zdrowotne uzytkownika. Uzytkownik korzysta z aplikacji na wlasne ryzyko. Przed rozpoczeciem postu nalez skonsultowac sie z lekarzem."
+            "desc":"Aplikacja jest dostarczana jak jest bez gwarancji. Właściciel nie ponosi odpowiedzialności za szkody wynikające z korzystania z aplikacji lub decyzje zdrowotne użytkownika. Użytkownik korzysta z aplikacji na własne ryzyko. Przed rozpoczęciem postu należy skonsultować się z lekarzem."
         },
         "8":{
             "title":"8. Prawa Własności Intelektualnej",
@@ -160,11 +171,11 @@
         "9":{
             "title":"9. Kontakt i Postanowienia Końcowe",
             "desc":"Kontakt: Kontakt@develoart.com. Regulamin podlega prawu polskiemu. Użytkownik ma prawo usunąć aplikację i dane w dowolnym momencie."
+        },
+        "10":{
+            "title":"10. Ostrzeżenie Zdrowotne",
+            "desc":"NIE korzystaj z tej aplikacji, jeśli: Masz cukrzycę (typ 1 lub typ 2), Masz lub miałeś zaburzenia odżywiania, Jesteś w ciąży lub karmisz piersią, Masz choroby przewlekłe (choroby serca, nerek, wątroby), Przyjmujesz leki wymagające spożywania posiłków, Masz niskie ciśnienie krwi lub anemię. NATECHMIAST przestań korzystać z aplikacji i skontaktuj się z lekarzem, jeśli odczuwasz: zawroty głowy, omdlenia, osłabienie, ból w klatce piersiowej, nieregularne bicie serca, silny ból głowy, splątanie lub inne niepokojące objawy."
         }
-    },
-    "mealPlans":{
-        "title": "Odkryj Pyszne Plany Posiłków",
-        "description": "Uzyskaj dostęp do tysięcy przepisów i sugestii posiłków zatwierdzonych przez ekspertów, idealnych na Twoje okno żywieniowe. Filtruj według typu posiłku i trudności, aby znaleźć dokładnie to, czego potrzebujesz."
     },
     "privacy":{
         "back":"Powrót na Stronę Główną",
@@ -172,6 +183,11 @@
         "effectiveDate":"Data wejścia w życie: Styczeń 2026",
         "owner":"DeveloArt Mateusz Bukowski",
         "contact":"Kontakt@develoart.com",
+        "medicalDisclaimer":{
+            "title":"⚕️ Zastrzeżenie Medyczne",
+            "desc":"Posto NIE jest urządzeniem medycznym. Aplikacja nie udziela porad medycznych, diagnoz ani leczenia. Wszystkie informacje podawane w aplikacji mają wyłącznie charakter edukacyjny i nie powinny być traktowane jako porady medyczne.",
+            "consult":"Zawsze konsultuj się z wykwalifikowanym specjalistą przed wprowadzaniem jakichkolwiek zmian w diecie, rozpoczęciem programu postu przerywanego lub jeśli masz jakiekolwiek wątpliwości zdrowotne. Twój lekarz pomoże Ci ustalić, czy post przerywany jest odpowiedni dla Twojej indywidualnej sytuacji zdrowotnej."
+        },
         "1":{
             "title":"1. Informacje Ogólne",
             "desc":"Niniejsza Polityka Prywatności opisuje, jak aplikacja Posto gromadzi, wykorzystuje i chroni dane użytkownika. Aplikacja jest własnością DeveloArt Mateusz Bukowski. Korzystając z aplikacji, użytkownik wyraża zgodę na praktyki opisane w niniejszej Polityce Prywatności."
@@ -214,6 +230,10 @@
         "8":{
             "title":"8. Kontakt",
             "desc":"W sprawach dotyczących prywatności prosimy o kontakt: Kontakt@develoart.com. Polityka Prywatności podlega prawu polskiemu."
+        },
+        "9":{
+            "title":"9. Ważne Ostrzeżenie Zdrowotne",
+            "desc":"Post przerywany może nie być odpowiedni dla każdego. Osoby z następującymi schorzeniami NIE powinny korzystać z tej aplikacji bez konsultacji z lekarzem: cukrzyca (typ 1 lub typ 2), zaburzenia odżywiania (anoreksja, bulimia, objadanie się), ciąża lub karmienie piersią, choroby przewlekłe, zaburzenia metaboliczne lub osoby przyjmujące leki wymagające spożywania posiłków. Jeśli odczuwasz zawroty głowy, osłabienie lub jakiekolwiek niepożądane objawy podczas postu, natychmiast przerwij post i skonsultuj się z lekarzem."
         }
     }
 }
