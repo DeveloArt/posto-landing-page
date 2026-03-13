@@ -111,41 +111,45 @@
     "terms":{
         "back":"Powrót na Stronę Główną",
         "title":"Regulamin",
-        "effectiveDate":"Data wejścia w życie: Styczeń 2026",
+        "effectiveDate":"Data wejścia w życie: Marzec 2026",
         "owner":"DeveloArt Mateusz Bukowski",
         "contact":"Kontakt@develoart.com",
         "medicalDisclaimer":{
             "title":"⚕️ Zastrzeżenie Medyczne - Ważne",
             "desc":"Posto NIE jest aplikacją medyczną. NIE udziela porad medycznych, diagnoz ani leczenia. Aplikacja służy wyłącznie jako narzędzie do śledzenia czasu postu i wspierania zdrowego stylu życia.",
-            "consult":"PRZED KORZYSTANIEM Z TEJ APLIKACJI: Skonsultuj się ze swoim lekarzem lub wykwalifikowanym specjalistą, szczególnie jeśli masz jakiekolwiek schorzenia, przyjmujesz leki lub masz wątpliwości dotyczące swojego zdrowia. Post przerywany może nie być odpowiedni dla każgo.",
-            "notReplace":"Ta aplikacja NIE zastępuje profesjonalnej porady medycznej, diagnozy ani leczenia. Zawsze seek porady swojego lekarza lub innego wykwalifikowanego specjalisty w przypadku jakichkolwiek pytań dotyczących stanu zdrowia."
+            "consult":"PRZED KORZYSTANIEM Z TEJ APLIKACJI: Skonsultuj się ze swoim lekarzem lub wykwalifikowanym specjalistą, szczególnie jeśli masz jakiekolwiek schorzenia, przyjmujesz leki lub masz wątpliwości dotyczące swojego zdrowia. Post przerywany może nie być odpowiedni dla każdego.",
+            "notReplace":"Ta aplikacja NIE zastępuje profesjonalnej porady medycznej, diagnozy ani leczenia. Zawsze zasięgnij porady swojego lekarza lub innego wykwalifikowanego specjalisty w przypadku jakichkolwiek pytań dotyczących stanu zdrowia."
         },
         "1":{
             "title":"1. Postanowienia Ogólne",
             "desc":"Niniejszy Regulamin określa zasady korzystania z aplikacji mobilnej Posto. Aplikacja jest własnością DeveloArt Mateusz Bukowski i służy do śledzenia postu intermitentnego, monitorowania nawodnienia oraz analizy postępów zdrowotnych. Korzystanie z aplikacji oznacza akceptację niniejszego Regulaminu."
         },
         "2":{
-            "title":"2. Funkcjonalności Aplikacji",
-            "desc":"Aplikacja oferuje: śledzenie sesji postu intermitentnego, monitorowanie spożycia wody, rejestrowanie pomiarów wagi, wyświetlanie informacji o stanach metabolicznych, statystyki i analiza postępów, powiadomienia przypominające o nawodnieniu. Wszystkie funkcjonalności są świadczone bezpłatnie."
-        },
-        "3":{
-            "title":"3. Cel Aplikacji",
+            "title":"2. Cel Aplikacji",
             "desc":"Aplikacja służy do śledzenia czasu postu i okna żywieniowego (tracker), a NIE jest poradnikiem medycznym. Użytkownik korzysta z niej na własną odpowiedzialność. Aplikacja nie zastępuje profesjonalnej porady lekarskiej, dietetyka ani psychologa."
         },
+        "3":{
+            "title":"3. Funkcjonalności Aplikacji",
+            "desc":"Aplikacja oferuje: śledzenie sesji postu intermitentnego, monitorowanie spożycia wody, rejestrowanie pomiarów wagi, wyświetlanie informacji o stanach metabolicznych, statystyki i analiza postępów, powiadomienia przypominające o nawodnieniu. Wszystkie funkcjonalności są świadczone bezpłatnie."
+        },
         "4":{
-            "title":"4. Zasady Korzystania",
-            "desc":"Użytkownik zobowiązuje się do podawania zgodnych z prawdą danych (wiek, waga, płeć), co ma wpływ na wyliczane zapotrzebowanie i proponowane plany. Aplikacja wysyła przypomnienia o rozpoczęciu/zakończeniu postu, zgodnie z ustawionym harmonogramem użytkownika."
+            "title":"4. Ograniczenie Wiekowe",
+            "desc":"Aplikacja jest przeznaczona dla osób, które ukończyły 16 lat."
         },
         "5":{
-            "title":"5. Regulamin Postu Intermitentnego",
+            "title":"5. Zasady Korzystania",
+            "desc":"Użytkownik jest odpowiedzialny za wprowadzane dane (wiek, waga, płeć), co ma wpływ na wyliczane zapotrzebowanie i proponowane plany. Aplikacja wysyła przypomnienia o rozpoczęciu/zakończeniu postu, zgodnie z ustawionym harmonogramem użytkownika."
+        },
+        "6":{
+            "title":"6. Regulamin Postu Intermitentnego",
             "desc":"Okres postu to czas, w którym spożywanie kalorii jest zabronione. Dozwolone są: woda (niegazowana), czarna kawa (bez mleka i cukru), herbata oraz napary ziołowe. Okno żywieniowe to czas, w którym spożywa się posiłki.",
             "list":{
-                "1":"12:12 - Circadian Rhythm (12h post, 12h jedzenie)",
-                "2":"14:10 - Easy Start (14h post, 10h jedzenie)",
-                "3":"16:8 - Lean Gains (16h post, 8h jedzenie) - najpopularniejszy",
-                "4":"18:6 - Warrior (18h post, 6h jedzenie)",
-                "5":"20:4 - Warrior Diet (20h post, 4h jedzenie)",
-                "6":"23:1 - OMAD - One Meal A Day (23h post, 1h jedzenie)"
+                "1":" - Circadian Rhythm (12h post, 12h jedzenie)",
+                "2":" - Easy Start (14h post, 10h jedzenie)",
+                "3":" - Lean Gains (16h post, 8h jedzenie) - najpopularniejszy",
+                "4":" - Warrior (18h post, 6h jedzenie)",
+                "5":" - Warrior Diet (20h post, 4h jedzenie)",
+                "6":" - OMAD - One Meal A Day (23h post, 1h jedzenie)"
             },
             "examples":{
                 "title":"Przykładowe regulacje:",
@@ -154,33 +158,41 @@
                 "3":"Post wodny (72h): Dłuższe głodówki wymagają spożywania wyłącznie wody, kawy lub herbaty"
             }
         },
-        "6":{
-            "title":"6. Przeciwwskazania",
+        "7":{
+            "title":"7. Przeciwwskazania",
             "desc":"Osoby z chorobami przewlekłymi, cukrzycą, zaburzeniami odżywiania, kobiety w ciąży lub karmiące NIE powinny stosować postu bez konsultacji lekarskiej.",
             "sideEffects":"Możliwe skutki uboczne: niedobory, zaburzenia elektrolitowe, osłabienie odporności, zawroty głowy, zmęczenie.",
             "stop":"Jeśli poczujesz się słabo lub wystąpią zawroty głowy - NATECHMIAST PRZERWIJ POST."
         },
-        "7":{
-            "title":"7. Odpowiedzialność",
-            "desc":"Aplikacja jest dostarczana jak jest bez gwarancji. Właściciel nie ponosi odpowiedzialności za szkody wynikające z korzystania z aplikacji lub decyzje zdrowotne użytkownika. Użytkownik korzysta z aplikacji na własne ryzyko. Przed rozpoczęciem postu należy skonsultować się z lekarzem."
-        },
         "8":{
-            "title":"8. Prawa Własności Intelektualnej",
-            "desc":"Wszelkie prawa własności intelektualnej do aplikacji Posto należą do DeveloArt Mateusz Bukowski. Zabrania się kopiowania, modyfikowania lub dystrybuowania aplikacji bez pisemnej zgody właściciela."
+            "title":"8. Ostrzeżenie Zdrowotne",
+            "desc":"NIE korzystaj z tej aplikacji, jeśli: Masz cukrzycę (typ 1 lub typ 2), Masz lub miałeś zaburzenia odżywiania, Jesteś w ciąży lub karmisz piersią, Masz choroby przewlekłe (choroby serca, nerek, wątroby), Przyjmujesz leki wymagające spożywania posiłków, Masz niskie ciśnienie krwi lub anemię. NATECHMIAST przestań korzystać z aplikacji i skontaktuj się z lekarzem, jeśli odczuwasz: zawroty głowy, omdlenia, osłabienie, ból w klatce piersiowej, nieregularne bicie serca, silny ból głowy, splątanie lub inne niepokojące objawy."
         },
         "9":{
-            "title":"9. Kontakt i Postanowienia Końcowe",
-            "desc":"Kontakt: Kontakt@develoart.com. Regulamin podlega prawu polskiemu. Użytkownik ma prawo usunąć aplikację i dane w dowolnym momencie."
+            "title":"9. Odpowiedzialność",
+            "desc":"Aplikacja jest udostępniana w stanie „tak jak jest” („as is”), bez jakichkolwiek gwarancji dotyczących jej działania, dostępności lub przydatności do określonego celu. Właściciel nie ponosi odpowiedzialności za szkody wynikające z korzystania z aplikacji lub decyzje zdrowotne użytkownika. Użytkownik korzysta z aplikacji na własne ryzyko. Przed rozpoczęciem postu należy skonsultować się z lekarzem."
         },
         "10":{
-            "title":"10. Ostrzeżenie Zdrowotne",
-            "desc":"NIE korzystaj z tej aplikacji, jeśli: Masz cukrzycę (typ 1 lub typ 2), Masz lub miałeś zaburzenia odżywiania, Jesteś w ciąży lub karmisz piersią, Masz choroby przewlekłe (choroby serca, nerek, wątroby), Przyjmujesz leki wymagające spożywania posiłków, Masz niskie ciśnienie krwi lub anemię. NATECHMIAST przestań korzystać z aplikacji i skontaktuj się z lekarzem, jeśli odczuwasz: zawroty głowy, omdlenia, osłabienie, ból w klatce piersiowej, nieregularne bicie serca, silny ból głowy, splątanie lub inne niepokojące objawy."
+            "title":"10. Prawa Własności Intelektualnej",
+            "desc":"Wszelkie prawa własności intelektualnej do aplikacji Posto należą do DeveloArt Mateusz Bukowski. Zabrania się kopiowania, modyfikowania lub dystrybuowania aplikacji bez pisemnej zgody właściciela."
+        },
+        "11":{
+            "title":"11. Rezygnacja z Korzystania",
+            "desc":"Użytkownik może w dowolnym momencie zaprzestać korzystania z aplikacji poprzez jej usunięcie z urządzenia."
+        },
+        "12":{
+            "title":"12. Zastrzeżenia Zmiany Regulaminu",
+            "desc":"Właściciel zastrzega sobie prawo do zmiany niniejszego Regulaminu. Zmiany wchodzą w życie z chwilą ich opublikowania w aplikacji lub na stronie internetowej. Dalsze korzystanie z aplikacji oznacza akceptację zmienionego Regulaminu."
+        },
+        "13":{
+            "title":"13. Kontakt i Postanowienia Końcowe",
+            "desc":"Kontakt: Kontakt@develoart.com. Regulamin podlega prawu polskiemu. Użytkownik ma prawo usunąć aplikację i dane w dowolnym momencie."
         }
     },
     "privacy":{
         "back":"Powrót na Stronę Główną",
         "title":"Polityka Prywatności",
-        "effectiveDate":"Data wejścia w życie: Styczeń 2026",
+        "effectiveDate":"Data wejścia w życie: Marzec 2026",
         "owner":"DeveloArt Mateusz Bukowski",
         "contact":"Kontakt@develoart.com",
         "medicalDisclaimer":{
@@ -207,7 +219,7 @@
         },
         "4":{
             "title":"4. Wykorzystanie Danych",
-            "desc":"Zgromadzone dane służą wyłącznie do: śledzenia sesji postu intermitentnego, obliczania statystyk i postępów, przypomnień o nawodnieniu oraz personalizacji doświadczenia użytkownika. Dane NIE są sprzedawane osobom trzecim ani wykorzystywane do profilowania reklam."
+            "desc":"Zgromadzone dane służą wyłącznie do: śledzenia sesji postu intermitentnego, obliczania statystyk i postępów, przypomnień o nawodnieniu oraz personalizacji doświadczenia użytkownika. Nie sprzedajemy, nie wynajmujemy ani nie handlujemy danymi użytkownika stronom trzecim."
         },
         "5":{
             "title":"5. Prawa Użytkownika",
@@ -221,19 +233,46 @@
         },
         "6":{
             "title":"6. Bezpieczeństwo",
-            "desc":"Stosujemy odpowiednie środki techniczne i organizacyjne w celu ochrony danych użytkownika. Dane są przechowywane lokalnie, co oznacza, że dostęp do nich ma tylko użytkownik. Zalecamy używanie zabezpieczeń urządzenia (PIN, odcisk palca) oraz nieudostępnianie odblokowanego urządzenia osobom trzecim."
+            "desc":"Stosujemy rozsądne środki techniczne i organizacyjne, aby chronić dane użytkownika przed nieautoryzowanym dostępem, utratą lub niewłaściwym użyciem. Dane są przechowywane lokalnie, co oznacza, że tylko użytkownik ma do nich dostęp. Zalecamy korzystanie z zabezpieczeń urządzenia (PIN, odcisk palca) i nieudostępnianie odblokowanego urządzenia innym osobom."
         },
         "7":{
             "title":"7. Udostępnianie Danych",
             "desc":"Dane użytkownika NIE są udostępniane stronom trzecim, z wyjątkiem wymogów prawnych (na żądanie organów ścigania) lub aplikacji zewnętrznych, które użytkownik dobrowolnie zintegruje (np. Apple Health, Google Fit)."
         },
         "8":{
-            "title":"8. Kontakt",
-            "desc":"W sprawach dotyczących prywatności prosimy o kontakt: Kontakt@develoart.com. Polityka Prywatności podlega prawu polskiemu."
+            "title":"8. Administrator Danych",
+            "desc":"Administratorem danych osobowych w aplikacji Posto jest:",
+            "name":"DeveloArt",
+            "address":"Gdańsk, 80‑807, PL",
+            "email":"Kontakt@develoart.com"
         },
         "9":{
             "title":"9. Ważne Ostrzeżenie Zdrowotne",
             "desc":"Post przerywany może nie być odpowiedni dla każdego. Osoby z następującymi schorzeniami NIE powinny korzystać z tej aplikacji bez konsultacji z lekarzem: cukrzyca (typ 1 lub typ 2), zaburzenia odżywiania (anoreksja, bulimia, objadanie się), ciąża lub karmienie piersią, choroby przewlekłe, zaburzenia metaboliczne lub osoby przyjmujące leki wymagające spożywania posiłków. Jeśli odczuwasz zawroty głowy, osłabienie lub jakiekolwiek niepożądane objawy podczas postu, natychmiast przerwij post i skonsultuj się z lekarzem."
+        },
+        "10":{
+            "title":"10. Podstawa prawna przetwarzania",
+            "desc":"Przetwarzanie danych opiera się na:",
+            "list":{
+                "1":"Zgoda użytkownika (podczas wprowadzania danych do aplikacji)",
+                "2":"Wykonywanie funkcjonalności aplikacji żądanych przez użytkownika"
+            }
+        },
+        "11":{
+            "title":"11. Przechowywanie Danych",
+            "desc":"Dane użytkownika są przechowywane lokalnie na urządzeniu użytkownika i pozostają tam aż do ręcznego usunięcia przez użytkownika lub usunięcia aplikacji z urządzenia."
+        },
+        "12":{
+            "title":"12. Prywatność Dzieci",
+            "desc":"Aplikacja Posto nie jest przeznaczona do użytku przez dzieci poniżej wieku 13. Nie zbieramy świadomoście danych osobowych od dzieci."
+        },
+        "13":{
+            "title":"13. Kontakt",
+            "desc":"W sprawach dotyczących prywatności prosimy o kontakt: Kontakt@develoart.com. Polityka Prywatności podlega prawu polskiemu (https://uodo.gov.pl). Użytkownicy mają prawo wnieść skargę z ich lokalnym organem ochrony danych, jeśli uważają, że ich dane są przetwarzane niezgodnie z prawem."
+        },
+        "14":{
+            "title":"14. Zmiany w Polityce Prywatności",
+            "desc":"Zastrzegamy sobie prawo do aktualizacji niniejszej Polityki Prywatności w dowolnym momencie. Wszelkie zmiany zostaną opublikowane w ramach aplikacji i wступią w życie natychmiast po opublikowaniu. Zachęcamy użytkowników do okresowego przeglądu niniejszej Polityki Prywatności."
         }
     }
 }

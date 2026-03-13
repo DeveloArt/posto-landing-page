@@ -48,14 +48,14 @@ export const PrivacyPolicy: React.FC = () => {
         
         <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. {t('privacy.1.title')}</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.1.title')}</h2>
             <p>
               {t('privacy.1.desc')}
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. {t('privacy.2.title')}</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.2.title')}</h2>
             <p>
               {t('privacy.2.desc')}
             </p>
@@ -67,21 +67,21 @@ export const PrivacyPolicy: React.FC = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">3. {t('privacy.3.title')}</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.3.title')}</h2>
             <p>
               {t('privacy.3.desc')}
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">4. {t('privacy.4.title')}</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.4.title')}</h2>
             <p>
               {t('privacy.4.desc')}
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">5. {t('privacy.5.title')}</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.5.title')}</h2>
             <p>
               {t('privacy.5.desc')}
             </p>
@@ -94,30 +94,76 @@ export const PrivacyPolicy: React.FC = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">6. {t('privacy.6.title')}</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.6.title')}</h2>
             <p>
               {t('privacy.6.desc')}
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">7. {t('privacy.7.title')}</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.7.title')}</h2>
             <p>
               {t('privacy.7.desc')}
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">8. {t('privacy.8.title')}</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.8.title')}</h2>
             <p>
               {t('privacy.8.desc')}
+            </p>
+            <p>
+              <strong>{t('privacy.8.name')}</strong><br />
+              {t('privacy.8.address')}<br />
+              {t('privacy.8.email')}
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">9. {t('privacy.9.title')}</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.9.title')}</h2>
             <p>
               {t('privacy.9.desc')}
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.10.title')}</h2>
+            <p>
+              {t('privacy.10.desc')}
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>{t('privacy.10.list.1')}</li>
+              <li>{t('privacy.10.list.2')}</li>
+            </ul>
+          </section>
+          
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.11.title')}</h2>
+            <p>
+              {t('privacy.11.desc')}
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+            </ul>
+          </section>
+          
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.12.title')}</h2>
+            <p>
+              {t('privacy.12.desc')}
+            </p>
+          </section>
+          
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.13.title')}</h2>
+            <p>
+              {t('privacy.13.desc')}
+            </p>
+          </section>
+          
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t('privacy.14.title')}</h2>
+            <p>
+              {t('privacy.14.desc')}
             </p>
           </section>
         </div>

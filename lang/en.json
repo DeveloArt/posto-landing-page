@@ -111,7 +111,7 @@
     "terms":{
         "back":"Back to Home",
         "title":"Terms of Service",
-        "effectiveDate":"Effective Date: January 2026",
+        "effectiveDate":"Effective Date: March 2026",
         "owner":"DeveloArt Mateusz Bukowski",
         "contact":"Kontakt@develoart.com",
         "medicalDisclaimer":{
@@ -125,19 +125,23 @@
             "desc":"These Terms of Service define the rules for using the Posto mobile application. The application is owned by DeveloArt Mateusz Bukowski and serves to track intermittent fasting, monitor hydration, and analyze health progress. By using the application, you accept these Terms of Service."
         },
         "2":{
-            "title":"2. Application Features",
-            "desc":"The application offers: tracking intermittent fasting sessions, monitoring water intake, recording weight measurements, displaying metabolic state information, statistics and progress analysis, and hydration reminder notifications. All features are provided free of charge."
-        },
-        "3":{
-            "title":"3. Purpose of the Application",
+            "title":"2. Purpose of the Application",
             "desc":"The application serves to track fasting time and eating windows (tracker), and is NOT a medical advice guide. The user uses it at their own risk. The application does not replace professional medical, nutritional, or psychological advice."
         },
+        "3":{
+            "title":"3. Application Features",
+            "desc":"The application offers: tracking intermittent fasting sessions, monitoring water intake, recording weight measurements, displaying metabolic state information, statistics and progress analysis, and hydration reminder notifications. All features are provided free of charge."
+        },
         "4":{
-            "title":"4. Terms of Use",
-            "desc":"The user agrees to provide truthful data (age, weight, gender), which affects calculated requirements and proposed plans. The application sends reminders about starting/ending fasting according to the user's set schedule."
+            "title":"4. Age Restriction",
+            "desc":"The application is intended for users who have completed 16 years of age."
         },
         "5":{
-            "title":"5. Intermittent Fasting Rules",
+            "title":"5. Terms of Use",
+            "desc":"The user agrees to provide truthful data (age, weight, gender), which affects calculated requirements and proposed plans. The application sends reminders about starting/ending fasting according to the user's set schedule."
+        },
+        "6":{
+            "title":"6. Intermittent Fasting Rules",
             "desc":"Fasting period is the time when calorie consumption is prohibited. Allowed: water (still), black coffee (no milk or sugar), tea, and herbal infusions. Eating window is the time when meals are consumed.",
             "list":{
                 "1":"12:12 - Circadian Rhythm (12h fasting, 12h eating)",
@@ -154,33 +158,42 @@
                 "3":"Water Fast (72h): Longer fasts require consuming only water, coffee, or tea"
             }
         },
-        "6":{
-            "title":"6. Contraindications",
+        "7":{
+            "title":"7. Contraindications",
             "desc":"People with chronic diseases, diabetes, eating disorders, pregnant or breastfeeding women should NOT fast without consulting a doctor.",
             "sideEffects":"Possible side effects: vitamin/mineral deficiencies, electrolyte imbalances, weakened immunity, dizziness, fatigue.",
             "stop":"If you feel unwell or experience dizziness - IMMEDIATELY BREAK THE FAST."
         },
-        "7":{
-            "title":"7. Liability",
-            "desc":"The application is provided 'as is' without warranties. The owner is not liable for damages resulting from using the app or user's health decisions. User uses the app at their own risk. Consult a doctor before starting fasting."
-        },
         "8":{
-            "title":"8. Intellectual Property",
-            "desc":"All intellectual property rights to the Posto application belong to DeveloArt Mateusz Bukowski. Copying, modifying, or distributing the app without written permission is prohibited."
+            "title":"8. Health Warning",
+            "desc":"DO NOT use this app if: You have diabetes (type 1 or type 2), You have or have had eating disorders, You are pregnant or breastfeeding, You have chronic illnesses (heart disease, kidney disease, liver disease), You take medications that require food intake, You have low blood pressure or anemia. STOP using the app immediately and consult a doctor if you experience: dizziness, fainting, weakness, chest pain, irregular heartbeat, severe headache, confusion, or any other concerning symptoms."
         },
         "9":{
-            "title":"9. Contact and Final Provisions",
-            "desc":"Contact: Kontakt@develoart.com. Terms of Service are governed by Polish law. The user has the right to delete the app and data at any time."
+            "title":"9. Liability",
+            "desc":"The application is provided 'as is' without warranties. The owner is not liable for damages resulting from using the app or user's health decisions. User uses the app at their own risk. Consult a doctor before starting fasting."
         },
         "10":{
-            "title":"10. Health Warning",
-            "desc":"DO NOT use this app if: You have diabetes (type 1 or type 2), You have or have had eating disorders, You are pregnant or breastfeeding, You have chronic illnesses (heart disease, kidney disease, liver disease), You take medications that require food intake, You have low blood pressure or anemia. STOP using the app immediately and consult a doctor if you experience: dizziness, fainting, weakness, chest pain, irregular heartbeat, severe headache, confusion, or any other concerning symptoms."
+            "title":"10. Intellectual Property",
+            "desc":"All intellectual property rights to the Posto application belong to DeveloArt Mateusz Bukowski. Copying, modifying, or distributing the app without written permission is prohibited."
+        },
+        "11":{
+            "title":"11. Resignation of Use",
+            "desc":"The user may resign from using the application at any time by deleting it from the device."
+        },
+        "12":{
+            "title":"12. Notice of Changes to the Terms of Service",
+            "desc":"The owner reserves the right to change these Terms of Service. Changes take effect from the moment they are published in the application or on the website. Continued use of the application indicates acceptance of the revised Terms of Service."
+        },
+        "13":{
+            "title":"13. Contact and Final Provisions",
+            "desc":"Contact: Kontakt@develoart.com. Terms of Service are governed by Polish law. The user has the right to delete the app and data at any time."
         }
+
     },
     "privacy":{
         "back":"Back to Home",
         "title":"Privacy Policy",
-        "effectiveDate":"Effective Date: January 2026",
+        "effectiveDate":"Effective Date: March 2026",
         "owner":"DeveloArt Mateusz Bukowski",
         "contact":"Kontakt@develoart.com",
         "medicalDisclaimer":{
@@ -197,7 +210,7 @@
             "desc":"The application collects the following data:",
             "list":{
                 "1":"Data entered by the user: dates and times of fasting session start/end, body weight measurements, water intake, user preferences",
-                "2":"Automatically collected data: device information (model, OS, app version), data necessary for notifications",
+                "2":"Certain technical information about the device (such as device model, operating system version, and application version) may be used locally by the application to ensure proper functionality and notifications. This information is not transmitted outside the user's device.",
                 "3":"The app does NOT collect: location data, biometric data, contact information, health sensor data"
             }
         },
@@ -207,7 +220,7 @@
         },
         "4":{
             "title":"4. Data Use",
-            "desc":"Collected data is used exclusively for: tracking intermittent fasting sessions, calculating statistics and progress, hydration reminders, and personalizing the user experience. Data is NOT sold to third parties or used for ad profiling."
+            "desc":"Collected data is used exclusively for: tracking intermittent fasting sessions, calculating statistics and progress, hydration reminders, and personalizing the user experience. We do not sell, rent, or trade user data to third parties."
         },
         "5":{
             "title":"5. User Rights",
@@ -221,19 +234,46 @@
         },
         "6":{
             "title":"6. Security",
-            "desc":"We apply appropriate technical and organizational measures to protect user data. Data is stored locally, meaning only the user has access to it. We recommend using device security (PIN, fingerprint) and not sharing an unlocked device with others."
+            "desc":"We implement reasonable technical and organizational measures designed to protect user data from unauthorized access, loss, or misuse. Data is stored locally, meaning only the user has access to it. We recommend using device security (PIN, fingerprint) and not sharing an unlocked device with others."
         },
         "7":{
             "title":"7. Data Sharing",
             "desc":"User data is NOT shared with third parties, except for legal requirements (at the request of law enforcement) or external applications that the user voluntarily integrates (e.g., Apple Health, Google Fit)."
         },
         "8":{
-            "title":"8. Contact",
-            "desc":"For privacy-related matters, please contact: Kontakt@develoart.com. The Privacy Policy is governed by Polish law."
+            "title":"8. Data Collector",
+            "desc":"The data controller responsible for processing personal data in the Posto application is:",
+            "name":"DeveloArt",
+            "address":"Gdańsk, 80‑807, PL",
+            "email":"Kontakt@develoart.com"
         },
         "9":{
             "title":"9. Important Health Notice",
             "desc":"Intermittent fasting may not be suitable for everyone. Individuals with the following conditions should NOT use this app without consulting a healthcare provider: diabetes (type 1 or type 2), eating disorders (anorexia, bulimia, binge eating), pregnancy or breastfeeding, chronic illnesses, metabolic disorders, or those taking medications that require food intake. If you experience dizziness, weakness, or any adverse symptoms while fasting, immediately break your fast and consult a doctor."
+        },
+        "10":{
+            "title":"10. Legal Basis for Processing",
+            "desc":"Data processing is based on:",
+            "list":{
+                "1":"User consent (when entering data into the application)",
+                "2":"Performance of the application’s functionality requested by the user"
+            }
+        },
+        "11":{
+            "title":"11. Data Retention",
+            "desc":"User data is stored locally on the user's device and remains there until the user deletes it manually or removes the application from the device."
+        },
+        "12":{
+            "title":"12. Children's Privacy",
+            "desc":"The Posto application is not intended for use by children under the age of 13. We do not knowingly collect personal data from children."
+        },
+        "13":{
+            "title":"13. Contact",
+            "desc":"For privacy-related matters, please contact: Kontakt@develoart.com. The Privacy Policy is governed by Polish Law (https://uodo.gov.pl). Users also have the right to lodge a complaint with their local data protection authority if they believe their data is processed unlawfully - "
+        },
+        "14":{
+            "title":"14. Changes to the Privacy Policy",
+            "desc":"We reserve the right to update this Privacy Policy at any time. Any changes will be posted within the application and will become effective immediately upon posting. We encourage users to review this Privacy Policy periodically."
         }
     }
 }
