@@ -70,33 +70,33 @@ export const TermsOfService: React.FC = () => {
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.5.title")}</h2>
-            <p className="mb-4">{t("terms.5.desc")}</p>
-            <ul className="list-disc pl-6 space-y-2 mb-4">
-              <li><strong>12:12</strong> - {t("terms.5.list.1")}</li>
-              <li><strong>14:10</strong> - {t("terms.5.list.2")}</li>
-              <li><strong>16:8</strong> - {t("terms.5.list.3")}</li>
-              <li><strong>18:6</strong> - {t("terms.5.list.4")}</li>
-              <li><strong>20:4</strong> - {t("terms.5.list.5")}</li>
-              <li><strong>23:1</strong> - {t("terms.5.list.6")}</li>
-            </ul>
-            <p className="font-semibold mt-4">{t("terms.5.examples.title")}</p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>{t("terms.5.examples.1")}</li>
-              <li>{t("terms.5.examples.2")}</li>
-              <li>{t("terms.5.examples.3")}</li>
-            </ul>
+            <p>{t("terms.5.desc")}</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.6.title")}</h2>
-            <p className="text-red-600 font-semibold mb-2">{t("terms.6.desc")}</p>
-            <p className="mb-2">{t("terms.6.sideEffects")}</p>
-            <p className="text-red-600 font-bold">{t("terms.6.stop")}</p>
+            <p className="mb-4">{t("terms.6.desc")}</p>
+            <ul className="list-disc pl-6 space-y-2 mb-4">
+              <li><strong>12:12</strong>{t("terms.6.list.1")}</li>
+              <li><strong>14:10</strong>{t("terms.6.list.2")}</li>
+              <li><strong>16:8</strong>{t("terms.6.list.3")}</li>
+              <li><strong>18:6</strong>{t("terms.6.list.4")}</li>
+              <li><strong>20:4</strong>{t("terms.6.list.5")}</li>
+              <li><strong>23:1</strong>{t("terms.6.list.6")}</li>
+            </ul>
+            <p className="font-semibold mt-4">{t("terms.6.examples.title")}</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>{t("terms.6.examples.1")}</li>
+              <li>{t("terms.6.examples.2")}</li>
+              <li>{t("terms.6.examples.3")}</li>
+            </ul>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.7.title")}</h2>
-            <p>{t("terms.7.desc")}</p>
+            <p className="text-red-600 font-semibold mb-2">{t("terms.7.desc")}</p>
+            <p className="mb-2">{t("terms.7.sideEffects")}</p>
+            <p className="text-red-600 font-bold">{t("terms.7.stop")}</p>
           </section>
 
           <section>
@@ -112,6 +112,21 @@ export const TermsOfService: React.FC = () => {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.10.title")}</h2>
             <p>{t("terms.10.desc")}</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.11.title")}</h2>
+            <p>{t("terms.11.desc")}</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.12.title")}</h2>
+            <p>{t("terms.12.desc")}</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">{t("terms.13.title")}</h2>
+            <p>{t("terms.13.desc")}</p>
           </section>
         </div>
       </div>
