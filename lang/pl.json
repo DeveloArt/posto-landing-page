@@ -56,15 +56,13 @@
     "pricing":{
         "title":"Cennik",
         "desc":"Proste, przejrzyste ceny",
-        "desc2":"Brak ukrytych opłat. Karta kredytowa nie jest wymagana.",
         "desc3":"Ciesz się wszystkimi funkcjami całkowicie za darmo. Wierzymy w dostęp do narzędzi zdrowotnych dla każdego.",
         "free":"Darmowy",
         "list":{
             "feature1":"Nieograniczona funkcjonalność",
             "feature2":"Zero reklam",
             "feature3":"Brak subskrypcji",
-            "feature4":"Pełna prywatność danych",
-            "feature5":"Wszystkie przyszłe aktualizacje w cenie"
+            "feature4":"Pełna prywatność danych"
         },
         "download":"Karta kredytowa nie jest wymagana. Po prostu pobierz aplikacje i rozpocznij post"
     },

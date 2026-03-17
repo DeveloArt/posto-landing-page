@@ -56,15 +56,13 @@
     "pricing":{
         "title":"Pricing",
         "desc":"Simple, transparent pricing",
-        "desc2":"No hidden fees. No credit card required.",
         "desc3":"Enjoy all features completely free. We believe in accessible health tools for everyone.",
         "free":"Free",
         "list":{
             "feature1":"Unlimited functionality",
             "feature2":"Zero advertisements",
             "feature3":"No subscription needed",
-            "feature4":"Full data privacy",
-            "feature5":"All future updates included"
+            "feature4":"Full data privacy"
         },
         "download":"No credit card required. Just download and start."
     },

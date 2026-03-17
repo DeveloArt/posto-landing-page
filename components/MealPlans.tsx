@@ -173,15 +173,9 @@ export const MealPlans: React.FC = () => {
   return (
     <section className="px-6 py-20 lg:py-28 bg-gray-50 max-w-full mx-auto" id="meal-plans">
       <div className="text-center mb-16 max-w-3xl mx-auto">
-        <span className="text-primary font-bold text-xs uppercase tracking-widest bg-green-100 px-4 py-1.5 rounded-full">
-          Plany Posiłków
-        </span>
         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-6 leading-tight">
           {t("mealPlans.title")}
         </h2>
-        <p className="text-gray-500 mt-4 text-lg">
-          {t("mealPlans.description")}
-        </p>
       </div>
 
       {/* Category Filter */}
