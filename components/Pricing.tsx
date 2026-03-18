@@ -14,9 +14,6 @@ export const Pricing: React.FC = () => {
                     <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-6 leading-tight">
                         {t("pricing.desc")}
                     </h2>
-                    <p className="text-gray-500 mt-4 text-lg">
-                        {t("pricing.desc2")}
-                    </p>
                 </div>
                 
                 <div className="rounded-4xl p-8 lg:p-12 shadow-sm border-none bg-gray-50 hover:bg-green-50/50 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
@@ -42,8 +39,7 @@ export const Pricing: React.FC = () => {
                                     t("pricing.list.feature1"),
                                     t("pricing.list.feature2"),
                                     t("pricing.list.feature3"),
-                                    t("pricing.list.feature4"),
-                                    t("pricing.list.feature5")
+                                    t("pricing.list.feature4")
                                 ].map((feature, index) => (
                                     <li key={index} className="flex items-center gap-3">
                                         <div className="shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center">
