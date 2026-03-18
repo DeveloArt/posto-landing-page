@@ -16,12 +16,11 @@
         "sub":"Bez Subskrypcji"
     },
     "card":{
-        "current":"Obecny post",
-        "inter":"Przerywany",
-        "elapsed":"Minęło",
-        "started":"Start",
-        "goal":"Cel",
-        "method":"Metoda potwierdzona naukowo"
+        "endTime":"Koniec postu o: 08:42",
+        "endFast":"Zakończ post",
+        "edit":"Edytuj start",
+        "method":"Metoda potwierdzona naukowo",
+        "fasting":"Post trwa"
     },
     "features":{
         "title":"Dlaczego Posto?",
