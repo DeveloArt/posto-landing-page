@@ -16,12 +16,11 @@
         "sub":"No Subscriptions"
     },
         "card":{
-        "current":"Current Post",
-        "inter":"Intermittent",
-        "elapsed":"Elapsed",
-        "started":"Started",
-        "goal":"Goal",
-        "method":"Scientifically proven method"
+        "endTime":"Your fast ends at: 08:42",
+        "endFast":"End Fast",
+        "edit":"Edit Start",
+        "method":"Scientifically proven method",
+        "fasting":"You've been fasting for"
     },
     "features":{
         "title":"Why Posto?",
